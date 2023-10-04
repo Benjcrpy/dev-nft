@@ -1,0 +1,21 @@
+:root{
+    --background: #000000;
+    --white: #ffffff;
+    --text-gradient-bg: rgb(2,0,36);
+    --text-gradient-1: linear-gradient(90deg,
+  rgba(93,25,97,1) 6%, 
+  rgba(208,87,221,1) 35%, 
+  rgba(109,221,237,1) 66%, 
+  rgba(182,35,249,1) 77%, 
+  rgba(92,92,250,1) 86%, 
+  rgba(22,199,251,1) 93%, 
+  rgba(52,22,251,1) 93%, 
+  rgba(0,212,255,1) 100%); 
+  --btn-bg:#2f80ed;
+  --bg-blog: rgba(143, 0, 255, 0.35);
+  --card-border: #282525;
+}
+
+
+    
+
