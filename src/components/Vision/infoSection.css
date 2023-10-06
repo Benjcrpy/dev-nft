@@ -1,0 +1,14 @@
+.topfold{
+    height: 55vh;
+    overflow: hidden;
+}
+.vision-heading{
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 72px;
+}
+
+.vision-description{
+    font-size: 20px;
+    margin: 24px 0px;
+}

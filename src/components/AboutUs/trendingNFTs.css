@@ -1,0 +1,55 @@
+.aboutus {
+    display: flex; /* Add flex display to arrange the items horizontally */
+    height: 92vh;
+    overflow: hidden;
+  }
+  
+  .au-left {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-right: 48px;
+  }
+  
+  .au-right {
+    display: flex;
+    flex-direction: column; /* Change to column layout for text content */
+    flex: 1;
+    padding-left: 20px; /* Add some padding to separate it from the image */
+    padding-bottom: 150px;
+  }
+  
+  .au-heading {
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 72px;
+    /* margin-left: 0px; Remove margin-left */
+  }
+  
+  .au-description {
+    font-size: 20px;
+    margin: 24px 0; /* Adjust margin as needed */
+  }
+  
+  .au-left-diamond {
+    display: flex;
+    flex-wrap: wrap;
+    transform: rotate(45deg);
+  }
+  
+  .au-left-diamond-item {
+    width: 620px;
+    height: 500px;
+    overflow: hidden;
+    margin: 6px;
+    transform: rotate(-45deg);
+    cursor: pointer;
+    border-radius: 12px;
+  }
+  
+  .au-left-diamond-img {
+    height: 500px;
+    width: 620px;
+    display: flex;
+  }
+  

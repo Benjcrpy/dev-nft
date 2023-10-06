@@ -1,6 +1,8 @@
 .topfold{
-    height: 92vh;
+    display: flex;
+    height: 80vh;
     overflow: hidden;
+    padding: 130px;
 }
 
 .tf-left{
@@ -63,30 +65,18 @@
 
 .tf-r-diamond-item{
     
-    width: 200px;
-    height: 200px;
+    width: 620px;
+    height: 500px;
     overflow: hidden;
     margin: 6px;
     transform: rotate(-45deg);
     cursor: pointer;
-    border: 3px solid aquamarine;
     border-radius: 12px;
 }
 
 .tf-r-diamond-img{
-    height: 220px;
-    object-fit: contain;
-    display: block;
+    height: 500px;
+    width: 620px;
+    display: flex;
 }
 
-.tf-r-bg-blob{
-    height: 550px;
-    width: 550px;
-    background-color: var(--bg-blog);
-    filter: blur(160.58px);
-    position: absolute;
-    z-index: -99;
-    left: 23%;
-    top: 3%;
-    transform: translate(65%);
-}
