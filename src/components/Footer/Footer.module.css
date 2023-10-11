@@ -37,7 +37,7 @@
 }
 
 .footer_social a:hover{
-  background-color:  purple;
+  background-color:  grey;
   color:  black;
   box-shadow: bisque;
 }
@@ -88,4 +88,9 @@
       width: 90%;
       grid-template-columns: 1fr;
   }
+}
+
+a {
+  text-decoration: none; /* Remove the underline */
+  color: rgb(167, 140, 140);
 }

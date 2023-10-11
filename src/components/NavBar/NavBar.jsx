@@ -3,6 +3,9 @@ import React from "react";
 import "./NavBar.css";
 import {  Logo } from "./index";
 import Button from '../../common/Button'
+import AboutUs from "../AboutUs";
+import TopFold from "../TopFold";
+import Vision from "../Vision";
 
 const NavBar = () => {
  return (
@@ -12,13 +15,14 @@ const NavBar = () => {
       </div>
       
       <div className="NavItems">
-       <a href="/" target="_blank"> Home </a>
-       <a href="/about" target="_blank"> About Us </a>
-       <a href="/vision" target="_blank"> Vision </a>
+       <a href={<TopFold/>}> Home </a>
+       <a href={<AboutUs/>} > About Us </a>
+       <a href={<Vision/>} > Vision </a>
       </div>
       <div className="goto">
+        <a href="#">
       <Button btnType='PRIMARY' btnText='Go-to'/>
-     
+        </a>
       </div>
     </div>
  );

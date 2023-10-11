@@ -20,7 +20,7 @@ const Footer = () => {
       <div className={Style.footer_box}>
         <div className={Style.footer_box_social}>
          
-          <p>
+          <p className="FooterP">
             The world’s first and largest digital marketplace for crypto collectibles and non-fungible tokens (NFTs).
             Buy, sell, and discover exclusive digital items.
           </p>
@@ -48,18 +48,18 @@ const Footer = () => {
         {/* Menu Section */}
         <div className={Style.footer_box_discover}>
           <h3>Discover</h3>
-            <p>Build</p>
-            <p>Build</p>
-            <p>Build</p>
-            <p>Build</p>
+          <a href="#">  <p className="FooterP"> Listing</p> </a>
+          <a href="#">  <p className="FooterP">Sell</p> </a>
+          <a href="#">  <p className="FooterP">Buy</p> </a> 
+          <a href="#">  <p className="FooterP">Direct Listing</p> </a>
         </div>
 
         <div className={Style.footer_box_helpcenter}>
           <h3>Help Center</h3>
-            <p>Build</p>
-            <p>Build</p>
-            <p>Build</p>
-            <p>Build</p>
+          <a href="#"> <p className="FooterP">Terms and Condition </p> </a>
+          <a href="#"> <p className="FooterP">Security</p> </a>
+          <a href="#"> <p className="FooterP">Blockchain</p> </a>
+            
         </div>
 
         {/* Subscribe Section */}
@@ -72,7 +72,7 @@ const Footer = () => {
           </div>
 
           <div className={Style.subscribe_box_info}>
-            <p> 
+            <p className="FooterP"> 
                 @{new Date().getFullYear()} HTF. All right reseved.
             </p>
           </div>

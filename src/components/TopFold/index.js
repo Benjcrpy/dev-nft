@@ -1,8 +1,13 @@
-import React from 'react'
-import "./topFold.css"
-import Button from '../../common/Button'
+
+import './topFold.css';
+import Button from '../../common/Button';
+import homepage from '../../assets/homepage.png';
+import Vision from '../Vision/index'
+import AboutUs from '../AboutUs';
+
 const TopFold = () => {
-  return <div className='topfold absolute-center'>
+
+  return <div className={`topfold absolute-center`}>
       <div className='tf-left'>
 
         <div className='tf-heading'>
@@ -13,11 +18,14 @@ const TopFold = () => {
 
         </div>
         <div className='tf-left-btns'>
-          <Button btnType='PRIMARY' btnText='BROWSE'/>
-          <Button btnType='SECONDARY' btnText='CREATE' customClass='tf-left-secondary-btn'/>
-       
+        <a href={<AboutUs/>}>
+        <Button btnType='PRIMARY' btnText='BROWSE'   />
+        </a>
+        <a href={<Vision/>}>
+        <Button btnType='SECONDARY' btnText='CREATE' customClass='tf-left-secondary-btn' />
+        </a>
         </div>
-        <div className='tf-left-infoStats'>
+        <div className='tf-left-infoStats absolute-center'>
           <div className='tf-is-infoItem absolute-center' >
             <div className='tf-infoItem-count'>1K+</div>
             <div className='tf-infoItem-label'>Collection</div>
@@ -35,29 +43,24 @@ const TopFold = () => {
           </div>
           
         </div>
-    
-
       
       </div>
       <div className='tf-right'>
-        <div className='tf-r-bg-blob'></div>
-        <div className='tf-right-diamond'>
           <div className='tf-r-diamond-item'>
-          <span style={{'--i': '1'}}> 
           <img 
           className='tf-r-diamond-img' 
           alt="diamond-banner"
-          src="https://img-cdn.magiceden.dev/rs:fill:128:128:0:0/plain/https://bafybeigch4m7rbec2l255powwbjmacnyj5n5o54qcboiwfgs2nnw6thimq.ipfs.nftstorage.link/"
+          src={homepage}
           >
-          </img></span>
+          </img>
+          
+          
+
           </div>
 
         </div>
        
-        </div>
-
-
-     </div>
+    </div>
   
 }
 

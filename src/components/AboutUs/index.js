@@ -20,7 +20,7 @@ const AboutUs = () => {
       </div>
       <div className='au-right absolute-center'>
         <div className='au-heading'>
-          About US!
+          Vision!
         </div>
         <div className='au-description'>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec lacus ac magna blandit aliquet. 

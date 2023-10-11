@@ -9,19 +9,25 @@ import Footer from './components/Footer'
 import NavBar from './components/NavBar/NavBar'
 import AboutUs from './components/AboutUs'
 import Vision from './components/Vision'
+import Promotion from './components/Promotion/promotion'
+
 
 const App = () => {
   return (
     <div className='max-width'>
-      <NavBar/>
+    
+     
+     <NavBar/>
+      <Promotion/>
       <TopFold />
       <Vision />
       <AboutUs />
       <BrandsIntegration />
       <Footer />
-
+      
     </div>
   )
+
 }
 
 export default App
