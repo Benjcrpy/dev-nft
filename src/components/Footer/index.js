@@ -1,5 +1,5 @@
 import React from "react";
-
+import { useState } from 'react'
 import {
   TiSocialFacebook,
   TiSocialLinkedin,
@@ -12,9 +12,16 @@ import { RiSendPlaneFill } from "react-icons/ri";
 
 // INTERNAL IMPORTS
 import Style from "./Footer.module.css";
+import TMC from "./tmc/tmc";
 
 
 const Footer = () => {
+  const [showTMC, setShowTMC] = useState(false);
+  const [isTMCVisible, setIsTMCVisible] = useState(false);
+  const handleTMCClick = () => {
+    setIsTMCVisible(!isTMCVisible);
+    setShowTMC(!showTMC); // Toggle the visibility of the TMC component
+  };
   return (
     <div className={Style.footer}>
       <div className={Style.footer_box}>
@@ -56,7 +63,11 @@ const Footer = () => {
 
         <div className={Style.footer_box_helpcenter}>
           <h3>Help Center</h3>
-          <a href="#"> <p className="FooterP">Terms and Condition </p> </a>
+          <a href="#" onClick={handleTMCClick}>
+          <p className="FooterP">Terms and Condition</p>
+        </a>
+        {showTMC && <TMC />}
+        {isTMCVisible && <TMC onClose={handleTMCClick} />}
           <a href="#"> <p className="FooterP">Security</p> </a>
           <a href="#"> <p className="FooterP">Blockchain</p> </a>
             
