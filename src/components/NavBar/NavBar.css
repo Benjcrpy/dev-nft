@@ -1,40 +1,86 @@
-css
 /* General styles */
 body {
- margin: 0;
- padding: 0;
- font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* NavBar styles */
+  .NavBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--background-color);
+    padding: 10px 20px;
+  }
+  @media (max-width: 400px) {
+    .NavBar {
+        padding-top: 10px;
+        padding-right: 6rem;
+        padding-left: 0rem;
+        padding-bottom: 5rem;
+        flex-direction: column; /* Change to a column layout for mobile */
+        align-items: flex-start; /* Align items to the left for mobile */
+    }
+    .NavItems {
+        margin: 20px 0; /* Space out the navigation links */
+    }
+    .nav-logo {
+        left: 20rem; /* Position the logo on the left for mobile */
+    }
 }
-
-/* NavBar styles */
-.NavBar {
- display: flex;
- justify-content: space-between;
- align-items: center;
- background-color: var(--background-color);
- padding: 10px 20px;
-}
-
-.NavItems {
+  
+  /* Default NavItems styles (for desktop) */
+  .NavItems {
     display: inline;
     margin: 20px 40px;
-    padding-left: 400px;
-   }
-   
-   .NavItems a {
+    padding-left: 3rem;
+  }
+  
+  .NavItems a {
     color: #ffffff;
     text-decoration: none;
     font-size: 20px;
     transition: color 0.3s ease;
     margin: 0px 30px;
-   }
-   
-   .NavItems a:hover {
+  }
+  
+  .NavItems a:hover {
     color: #ff6b81;
-   }
+  }
+  
+  /* Styles for screens with a maximum width of 767px (mobile devices) */
+ /* Styles for screens with a maximum width of 767px (mobile devices) */
+@media (max-width: 767px) {
+  .NavItems {
+      flex-direction: column; /* Display the links in a column for mobile */
+      justify-content: space-between; /* Distribute the links evenly vertically */
+  }
 
-.goto{
-    
+  .NavItems a {
+      font-size: 18px; /* Slightly reduce font size for mobile */
+      text-align: center; /* Center the logo horizontally */
+      left: 50%; /* Set left to 50% */
+      margin-left: .5rem;
+      
+  }
+
+  .goto {
+       /* Adjust padding for mobile */
+      text-align: center; /* Center the logo horizontally */
+      left: 50%; /* Set left to 50% */
+      margin-left: 3.2rem;
+  }
+
+  .nav-logo {
+    text-align: center; /* Center the logo horizontally */
+    left: 50%; /* Set left to 50% */
+    margin-left: 3rem; /* Adjust the margin to center the logo */
+  }
+}
+ 
+  
+  .goto {
     border: none;
     border-radius: 3rem;
     color: #fff;
@@ -42,12 +88,16 @@ body {
     font-size: 1.1rem;
     font-weight: 400;
     outline: none;
-    padding: 0.9rem 1.75rem;
-    transition: .2s;
-}
-
-.nav-logo {
+    padding: 1rem 1.75rem;
+    transition: 0.2s;
+  }
+ 
+  .nav-logo {
     width: 150px;
     height: auto;
-   }
+    top: 7%; /* Adjust as needed for vertical positioning */
+    left: 0; /* Adjust as needed for horizontal positioning */
    
+  }
+  
+  

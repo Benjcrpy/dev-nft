@@ -8,6 +8,18 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
+
+/* Responsive Typography */
+@media (max-width: 300px ) {
+  body {
+    font-size: 14px;
+  }
+
+  code {
+    font-size: 12px;
+  }
+}
+
+/* Add more media queries as needed for different screen sizes */

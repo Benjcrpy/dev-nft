@@ -1,6 +1,7 @@
-.topfold{
-    height: 55vh;
+.vision{
+    padding-bottom: 10rem;
     overflow: hidden;
+    
 }
 .vision-heading{
       text-transform: uppercase;
@@ -21,7 +22,7 @@
        -webkit-text-fill-color: transparent;
        animation: textclip 2s linear infinite;
        
-        font-size: 5rem;
+        font-size: 3rem;
 }
 
 .container {
@@ -36,8 +37,8 @@
   }
   .container .box {
     position: relative;
-    width: 275px;
-    height: 275px;
+    width: 150px;
+    height: 150px;
     background: #000;
     transition: 0.5s;
     transform-style: preserve-3d;
@@ -120,4 +121,31 @@
   }
   .container .box:hover .content p {
     transform: translateY(0px);
+  }
+
+
+  @media (max-width: 767px) {
+    .vision .container {
+      width: 100%;
+      display: flex;
+      overflow-x: scroll;
+      flex-wrap: nowrap;
+      flex-direction: row;
+     
+    }
+  
+    .vision .container  {
+ 
+     
+    }
+  
+    .box img {
+      border-radius: 6px; /* Adjust border-radius as needed */
+    }
+    .imgvision{
+      display: flex;
+      overflow-x: scroll;
+      flex-wrap: nowrap;
+      flex-direction: row;
+    }
   }

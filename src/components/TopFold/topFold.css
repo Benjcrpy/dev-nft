@@ -9,7 +9,7 @@
     display: flex;
     flex-direction: column;
     flex: 1;
-    padding-right: 3rem;
+    padding-right: 0rem;
 }
 
 .tf-heading{
@@ -88,9 +88,9 @@
 
 
 .tf-r-diamond-img{
-    height: 530px;
-    width: 870px;
-    border-radius: 100px;
+    height: 330px;
+    width: 500px;
+    border-radius: 50px;
     display:flex;
     transition: width 2s;
     -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
@@ -101,4 +101,87 @@
     text-decoration: none;
     color: inherit;
 }
+
+@media (max-width: 850px) {
+    .topfold {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-top: 80px;
+    }
+
+    .tf-heading {
+        text-transform: uppercase;
+    background-image: linear-gradient(
+        -225deg,
+        #231557 0%,
+        #44107a 29%,
+        #ff1361 67%,
+        #fff800 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    font-size: 26px; /* Adjust the font size for mobile */
+    }
+
+    .tf-description {
+        font-size: 17px; /* Adjust the font size for mobile */
+        margin: 12px 5px; /* Adjust the margin for mobile */
+    }
+    .tf-left-btns {
+        margin-top: 15px; /* Adjust the margin for mobile */
+        display: flex;
+        flex-direction: row; /* Display buttons in a row for mobile (horizontally aligned) */
+        align-items: center; /* Center the buttons vertically */
+    }
+
+    .tf-left-btns .a {
+        margin-right: 20px; /* Add margin between buttons horizontally */
+        margin-bottom: 0; /* Remove the vertical margin between buttons */
+        min-width: 120px; /* Ensure a minimum width for the buttons */
+    }
+    
+    .tf-left-infoStats {
+        display: flex;
+        flex-direction: row; /* Display stats in a row for mobile (horizontally aligned) */
+        padding: 11px 5px; /* Adjust the padding for mobile */
+    }
+
+    .tf-is-infoItem {
+        margin-right: 15px; /* Add margin between info items horizontally */
+        flex-direction: column; /* Display the content within info items in a column */
+    }   
+    
+    .tf-infoItem-count {
+        font-size: 24px; /* Adjust the font size for mobile */
+        font-weight: 600;
+    }
+    
+    .tf-infoItem-label {
+        font-size: 14px;
+        font-weight: 600;
+    }
+    
+    .tf-r-diamond-img {
+        height: auto;
+        width: 100%; /* Make the image full width for mobile */
+        max-width: 500px; /* Limit the maximum width */
+        border-radius: 50px;
+        display: flex;
+        transition: width 2s;
+        -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4));
+    }
+}
+
+
+
 
