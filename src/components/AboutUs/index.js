@@ -29,7 +29,7 @@ const AboutUs = () => {
         congue semper leo. Etiam scelerisque nisl vel lacus condimentum, consectetur rhoncus lectus tempus. 
         Nam rhoncus pellentesque nisl ac tempus. Duis mattis suscipit elit a faucibus. Donec lacinia orci sed tortor 
         molestie condimentum. Nulla non leo sed erat vestibulum tincidunt. Sed vel turpis tortor. Donec et mauris fermentum, 
-        facilisis ipsum quis, auctor tortor. Cras et libero maximus, porttitor nisl at, consequat dolor. 
+        facilisis ipsum quis, auctor tortor. Cras et libero maximus, porttitor nisl at, consequat dolor. asdasdas
         </div>
       </div>
     </div>
