@@ -1,6 +1,11 @@
 import React from 'react'
 import "./infoSection.css"
-import homepage from "../../assets/test.jpg"
+import denzel from "../../assets/denzel.jpg"
+import anthony from "../../assets/anthony.png"
+import george from "../../assets/george.png"
+import enrico from "../../assets/enrico.png"
+import kirby from "../../assets/kirby.jpg"
+import lasim from "../../assets/Lasim.jpg"
 
 const Vision = () => {
   return <div className='vision'section id="about-us">
@@ -11,7 +16,7 @@ const Vision = () => {
    <div className="container">
   <div className="box">
     <div className="imgBx">
-      <img src={homepage} alt="imgvision"/>
+      <img src={denzel} alt="imgvision"/>
     </div>
     <div className="content">
       <div>
@@ -23,7 +28,7 @@ const Vision = () => {
   </div>
   <div className="box">
     <div className="imgBx">
-    <img src={homepage} alt="imgvision"/>
+    <img src={anthony} alt="imgvision"/>
        </div>
     <div className="content">
       <div>
@@ -35,7 +40,7 @@ const Vision = () => {
   </div>
   <div className="box">
     <div className="imgBx">
-    <img src={homepage} alt="imgvision"/>
+    <img src={george} alt="imgvision"/>
        </div>
     <div className="content">
       <div>
@@ -47,7 +52,7 @@ const Vision = () => {
   </div>
   <div className="box">
     <div className="imgBx">
-    <img src={homepage} alt="imgvision"/>
+    <img src={enrico} alt="imgvision"/>
        </div>
     <div className="content">
       <div>
@@ -59,7 +64,7 @@ const Vision = () => {
   </div>
   <div className="box">
     <div className="imgBx">
-    <img src={homepage} alt="imgvision"/>
+    <img src={kirby} alt="imgvision"/>
        </div>
     <div className="content">
       <div>
@@ -71,7 +76,7 @@ const Vision = () => {
   </div>
   <div className="box">
     <div className="imgBx">
-    <img src={homepage} alt="imgvision"/>
+    <img src={lasim} alt="imgvision"/>
        </div>
     <div className="content">
       <div>
