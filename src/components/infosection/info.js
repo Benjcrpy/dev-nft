@@ -33,6 +33,8 @@ const Info = () => {
           <p className="info2">New content that appears on hover</p>
         </div>
 
+        
+
       </div>
     </div>
   )

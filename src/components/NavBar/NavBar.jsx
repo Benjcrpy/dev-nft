@@ -3,9 +3,7 @@ import React, { useState } from "react";
 import "./NavBar.css";
 import { Logo } from "./index";
 import Button from '../../common/Button';
-import AboutUs from "../AboutUs";
-import TopFold from "../TopFold";
-import Vision from "../Vision";
+
 
 const NavBar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -37,9 +35,11 @@ const NavBar = () => {
         <a href="#top-fold">Home</a>
         <a href="#about-us">About Us</a>
         <a href="#vision">Vision</a>
+        <a href="#vision">Infosection</a>
+        <a href="#vision">Product & Services</a>
       </div>
       <div className="goto">
-        <a href="#">
+        <a href="https://marketplace-benjcrpy.vercel.app/">
           <Button btnType='PRIMARY' btnText='Go-to'/>
         </a>
       </div>

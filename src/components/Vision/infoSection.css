@@ -1,28 +1,13 @@
 .vision{
-    padding-bottom: 10rem;
+    padding-bottom: 20rem;
     overflow: hidden;
     
 }
 .vision-heading{
-      text-transform: uppercase;
-       background-image: linear-gradient(
-         -225deg,
-         #231557 0%,
-         #44107a 29%,
-         #ff1361 67%,
-         #fff800 100%
-       );
-       background-size: auto auto;
-       background-clip: border-box;
-       background-size: 200% auto;
-       color: #fff;
-       background-clip: text;
-       text-fill-color: transparent;
-       -webkit-background-clip: text;
-       -webkit-text-fill-color: transparent;
-       animation: textclip 2s linear infinite;
-       
-        font-size: 3rem;
+  text-transform: uppercase;
+  color: #dad0d0;
+  font-size: 3rem;
+  font-family:  'ADLaM Display', cursive;
 }
 
 .vision .container {
@@ -51,6 +36,7 @@
     overflow: hidden;
     margin-right: 15px;
     margin-top: 45px;
+    border-radius: 5%;
   }
   .vision .container:hover .box {
     transform: rotateY(25deg);
@@ -69,6 +55,7 @@
     left: 0;
     width: 100%;
     height: 100%;
+    border-radius: 20%;
   }
   .vision .container .box .imgBx:before {
     content: '';

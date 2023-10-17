@@ -2,7 +2,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
+  font-family:  'ADLaM Display', cursive;
 }
 
 /* NavBar styles */
@@ -62,7 +62,7 @@ body {
   }
   
   .NavItems a:hover {
-    color: #ff6b81;
+    color: #86797c;
   }
   .nav-logo {
     width: 150px;

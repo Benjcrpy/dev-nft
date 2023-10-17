@@ -5,7 +5,7 @@ import test1 from "../../assets/test1.jpg"
 
 const AboutUs = () => {
   return (
-    <div className='aboutus absolute-center'>
+    <div className='aboutus absolute-center' section id="vision">
       <div className='au-left'>
         <div className='au-left-diamond'>
           <div className='au-left-diamond-item'>
@@ -21,7 +21,7 @@ const AboutUs = () => {
       </div>
       <div className='au-right absolute-center'>
         <div className='au-heading'>
-          Vision!
+          Vision
         </div>
         <div className='au-description'>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec lacus ac magna blandit aliquet. 
@@ -29,7 +29,7 @@ const AboutUs = () => {
         congue semper leo. Etiam scelerisque nisl vel lacus condimentum, consectetur rhoncus lectus tempus. 
         Nam rhoncus pellentesque nisl ac tempus. Duis mattis suscipit elit a faucibus. Donec lacinia orci sed tortor 
         molestie condimentum. Nulla non leo sed erat vestibulum tincidunt. Sed vel turpis tortor. Donec et mauris fermentum, 
-        facilisis ipsum quis, auctor tortor. Cras et libero maximus, porttitor nisl at, consequat dolor. asdasdas
+        facilisis ipsum quis, auctor tortor. Cras et libero maximus, porttitor nisl at, consequat dolor. 
         </div>
       </div>
     </div>

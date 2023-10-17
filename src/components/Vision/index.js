@@ -3,9 +3,10 @@ import "./infoSection.css"
 import homepage from "../../assets/test.jpg"
 
 const Vision = () => {
-  return <div className='vision'>
+  return <div className='vision'section id="about-us">
+    
     <div className='vision-heading absolute-center'>
-      AboutUs
+      About Us
     </div>
    <div className="container">
   <div className="box">
@@ -26,8 +27,8 @@ const Vision = () => {
        </div>
     <div className="content">
       <div>
-        <h2>Image Title</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi accusamus molestias quidem iusto.
+        <h2>Anthony Agapay</h2>
+        <p>Lead Developer
         </p>
       </div>
     </div>
@@ -38,8 +39,8 @@ const Vision = () => {
        </div>
     <div className="content">
       <div>
-        <h2>Image Title</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi accusamus molestias quidem iusto.
+        <h2>George Marquez</h2>
+        <p> Co-Developer
         </p>
       </div>
     </div>
@@ -50,8 +51,8 @@ const Vision = () => {
        </div>
     <div className="content">
       <div>
-        <h2>Image Title</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi accusamus molestias quidem iusto.
+        <h2>Enrico</h2>
+        <p> Project Manager
         </p>
       </div>
     </div>
@@ -62,8 +63,8 @@ const Vision = () => {
        </div>
     <div className="content">
       <div>
-        <h2>Image Title</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi accusamus molestias quidem iusto.
+        <h2>Kirby Sembrano</h2>
+        <p> Documention
         </p>
       </div>
     </div>
@@ -74,8 +75,8 @@ const Vision = () => {
        </div>
     <div className="content">
       <div>
-        <h2>Image Title</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi accusamus molestias quidem iusto.
+        <h2>Lasim</h2>
+        <p>Documention
         </p>
       </div>
     </div>
@@ -83,6 +84,7 @@ const Vision = () => {
   
   
 </div>
+
 </div>
 }
 export default Vision

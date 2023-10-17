@@ -1,4 +1,3 @@
-
 import './topFold.css';
 import Button from '../../common/Button';
 import homepage from '../../assets/homepage.png';
@@ -7,7 +6,8 @@ import AboutUs from '../AboutUs';
 
 const TopFold = () => {
 
-  return <div className={`topfold absolute-center`}>
+  return <div className='topfold absolute-center' section id="top-fold">
+     
       <div className='tf-left'>
 
         <div className='tf-heading'>
@@ -18,10 +18,10 @@ const TopFold = () => {
 
         </div>
         <div className='tf-left-btns'>
-        <a href={<AboutUs/> }className="tf-button-link">
+        <a href="https://marketplace-benjcrpy.vercel.app/buy" className="tf-button-link">
         <Button btnType='PRIMARY' btnText='BROWSE'   />
         </a>
-        <a href={<Vision/>}className="tf-button-link">
+        <a href="https://marketplace-benjcrpy.vercel.app/" className="tf-button-link">
         <Button btnType='SECONDARY' btnText='CREATE' customClass='tf-left-secondary-btn' />
         </a>
         </div>

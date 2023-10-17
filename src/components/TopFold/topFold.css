@@ -3,6 +3,11 @@
     height: 80vh;
     overflow: hidden;
     padding: 130px;
+    padding-bottom: 20rem;
+}
+
+.tf-right{
+    display:none;
 }
 
 .tf-left{
@@ -14,25 +19,9 @@
 
 .tf-heading{
     
-        text-transform: uppercase;
-       background-image: linear-gradient(
-         -225deg,
-         #231557 0%,
-         #44107a 29%,
-         #ff1361 67%,
-         #fff800 100%
-       );
-       background-size: auto auto;
-       background-clip: border-box;
-       background-size: 200% auto;
-       color: #fff;
-       background-clip: text;
-       text-fill-color: transparent;
-       -webkit-background-clip: text;
-       -webkit-text-fill-color: transparent;
-       animation: textclip 2s linear infinite;
-       display: inline-block;
-           font-size: 40px;
+    text-transform: uppercase;
+    color: #dad0d0;
+    font-size: 3rem;
      }
      
      @keyframes textclip {
@@ -90,8 +79,8 @@
 
 
 .tf-r-diamond-img{
-    height: 330px;
-    width: 500px;
+    height: 500px;
+    width: 1000px;
     border-radius: 50px;
     display:flex;
     transition: width 2s;
@@ -114,25 +103,9 @@
     }
 
     .tf-heading {
-        text-transform: uppercase;
-    background-image: linear-gradient(
-        -225deg,
-        #231557 0%,
-        #44107a 29%,
-        #ff1361 67%,
-        #fff800 100%
-    );
-    background-size: auto auto;
-    background-clip: border-box;
-    background-size: 200% auto;
-    color: #fff;
-    background-clip: text;
-    text-fill-color: transparent;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: textclip 2s linear infinite;
-    display: inline-block;
-    font-size: 26px; /* Adjust the font size for mobile */
+    text-transform: uppercase;
+    color: #dad0d0;
+    font-size: 3rem; /* Adjust the font size for mobile */
     }
 
     .tf-description {
@@ -143,7 +116,9 @@
         margin-top: 15px; /* Adjust the margin for mobile */
         display: flex;
         flex-direction: row; /* Display buttons in a row for mobile (horizontally aligned) */
-        align-items: center; /* Center the buttons vertically */
+        align-items: center;
+        
+         /* Center the buttons vertically */
     }
 
     .tf-left-btns .a {
@@ -175,7 +150,7 @@
     
     .tf-r-diamond-img {
         height: auto;
-        width: 100%; /* Make the image full width for mobile */
+        width: auto; /* Make the image full width for mobile */
         max-width: 500px; /* Limit the maximum width */
         border-radius: 50px;
         display: flex;

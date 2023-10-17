@@ -26,6 +26,7 @@ const App = () => {
       <AboutUs />
       <Info/>
       <Product/>
+    
       <BrandsIntegration />
       <Footer />
       
