@@ -11,6 +11,7 @@ import AboutUs from './components/AboutUs'
 import Vision from './components/Vision'
 import Promotion from './components/Promotion/promotion'
 import Info from './components/infosection/info'
+import Product from './components/product/product'
 
 
 const App = () => {
@@ -24,6 +25,7 @@ const App = () => {
       <Vision />
       <AboutUs />
       <Info/>
+      <Product/>
       <BrandsIntegration />
       <Footer />
       
