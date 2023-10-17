@@ -42,8 +42,6 @@
     height: 500px;
     overflow: hidden;
     margin: 6px;
- 
-    cursor: pointer;
     border-radius: 12px;
   }
   
@@ -53,12 +51,12 @@
     display: flex;
   }
   
-  @media (max-width: 767px) {
+  @media (max-width: 45rem) {
     .aboutus {
       display: flex;
       flex-direction: column; /* Change to a column layout for mobile screens */
       padding: 1rem; /* Adjust padding as needed */
-      overflow: hidden;
+      overflow-x: visible;
     }
   
     .au-left {
@@ -71,12 +69,14 @@
       display: flex;
       flex-direction: column;
       align-items: center; /* Center text content */
+      
     }
   
     .au-left-diamond {
       display: flex;
       flex-direction: column; /* Change to a column layout for mobile screens */
       align-items: center; /* Center diamond items */
+      
     }
   
     .au-left-diamond-item {
@@ -85,11 +85,13 @@
       margin: 1rem 0; /* Add margin for spacing */
       border-radius: 12px;
       transform: none; /* Reset any transforms */
+      
     }
   
     .au-left-diamond-img {
       width: 100%; /* Make the image width 100% of the container */
       height: auto; /* Maintain aspect ratio */
+      
     }
   }
   

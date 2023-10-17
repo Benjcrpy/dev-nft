@@ -17,7 +17,7 @@
 }
 
 /* Styles for screens with a maximum width of 767px (mobile devices) */
-@media (max-width: 767px) {
+@media (max-width: 45rem) {
     .button {
         padding: 10px 20px; /* Adjust padding to make the button smaller */
         font-size: 18px; /* Reduce font size for mobile */

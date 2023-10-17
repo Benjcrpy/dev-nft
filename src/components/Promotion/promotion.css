@@ -1,7 +1,13 @@
-.container {
+.pcontainer {
   display: flex;
   justify-content: center; /* Horizontal centering */
   align-items: center; /* Vertical centering */
+  
+}
+@media(max-width: 45rem) {
+.pcontainer{
+  height:14rem;
+}
 }
 .table {
   width: 1900px;

@@ -18,10 +18,10 @@ const TopFold = () => {
 
         </div>
         <div className='tf-left-btns'>
-        <a href={<AboutUs/>}>
+        <a href={<AboutUs/> }className="tf-button-link">
         <Button btnType='PRIMARY' btnText='BROWSE'   />
         </a>
-        <a href={<Vision/>}>
+        <a href={<Vision/>}className="tf-button-link">
         <Button btnType='SECONDARY' btnText='CREATE' customClass='tf-left-secondary-btn' />
         </a>
         </div>

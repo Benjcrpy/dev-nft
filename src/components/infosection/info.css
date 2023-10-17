@@ -1,0 +1,138 @@
+.info{
+    padding: 10px;
+    padding-bottom: 10rem;
+    padding-top: 4rem;
+    
+    
+}
+.info-heading{
+      text-transform: uppercase;
+       background-image: linear-gradient(
+         -225deg,
+         #231557 0%,
+         #44107a 29%,
+         #ff1361 67%,
+         #fff800 100%
+       );
+       background-size: auto auto;
+       background-clip: border-box;
+       background-size: 200% auto;
+       color: #fff;
+       background-clip: text;
+       text-fill-color: transparent;
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+       animation: textclip 2s linear infinite;
+       
+        font-size: 3rem;
+}
+.infosection {
+    width: 65rem;
+    height: 40rem;
+    padding: 20px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    perspective: 1000px; /* Set the perspective for the 3D effect */
+  }
+  
+  .infobox {
+    margin: 15px;
+    position: relative;
+    transform-style: preserve-3d; /* Preserve 3D transformation for child elements */
+    transition: transform 0.5s; /* Add a smooth transition effect */
+  }
+  
+  .iimg {
+    border-radius: 20px;
+    border: 2px solid #dad0d0;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    height: 400px;
+    transform-style: preserve-3d; /* Preserve 3D transformation */
+    transition: transform 0.5s; /* Add a smooth transition effect */
+  }
+  
+  .infobox:hover .iimg {
+    transform: rotateY(180deg); /* Flip the image on hover */
+  }
+  .infobox .h2,
+.infobox .p {
+  opacity: 1; /* Initially, keep the .h2 and .p elements visible */
+  transition: opacity 0.3s; /* Add a transition effect for a smooth fade-out */
+}
+
+.infobox:hover .head{
+ display: none;
+}
+.infobox:hover .descrip{
+ display:none;
+}
+
+.infobox .info2 {
+  display: none; /* Initially hide the .info2 elements */
+}
+
+.infobox:hover .info2 {
+  display: block; /* Display .info2 on hover */
+}
+
+/* Rest of your styles... */
+
+  
+  /* Back side of the card (hidden by default) */
+  .back-content {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden; /* Hide the backface */
+    transform: rotateY(180deg); /* Rotate it 180 degrees to the back */
+  }
+  
+  /* Style the content on the back side as needed */
+  
+
+  @media (max-width: 45rem) {
+    .info-heading {
+      font-size: 2rem;
+    }
+    .infosection {
+    
+      width: 100%; /* Adjust the width for smaller screens */
+      height: 100%; /* Allow the height to adapt to content */
+      padding: 1px; /* Increase padding for smaller screens */
+      margin-top: 10px; /* Adjust margin for smaller screens */
+    }
+  
+    .infobox {
+        padding-bottom: 10rem;
+        height: 15rem;
+        width: 10rem;
+      margin: 10px; /* Adjust margin for consistent spacing */
+      position: relative;
+    }
+  
+    .iimg {
+      width: 100%; /* Make the images full width for smaller screens */
+      height: 10rem; /* Allow the height to adapt to the aspect ratio */
+      object-fit: cover; /* Maintain aspect ratio and cover the container */
+      transition: transform 0.5s;
+    }
+  
+    .infobox:hover .iimg {
+      transform: none;
+    }
+    
+    .info2 {
+      display: none; /* Initially hide the .info2 elements */
+    }
+    
+    .infobox:hover .info2 {
+      display: block; /* Display .info2 on hover */
+    }
+  }
+  

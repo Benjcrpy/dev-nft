@@ -10,6 +10,7 @@ import NavBar from './components/NavBar/NavBar'
 import AboutUs from './components/AboutUs'
 import Vision from './components/Vision'
 import Promotion from './components/Promotion/promotion'
+import Info from './components/infosection/info'
 
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
       <TopFold />
       <Vision />
       <AboutUs />
+      <Info/>
       <BrandsIntegration />
       <Footer />
       

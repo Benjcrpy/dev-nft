@@ -1,5 +1,6 @@
 import React from 'react'
 import "./trendingNFTs.css"
+import test1 from "../../assets/test1.jpg"
 
 
 const AboutUs = () => {
@@ -12,7 +13,7 @@ const AboutUs = () => {
               <img
                 className='au-left-diamond-img'
                 alt="au-img"
-                src="https://img-cdn.magiceden.dev/rs:fill:128:128:0:0/plain/https://bafybeigch4m7rbec2l255powwbjmacnyj5n5o54qcboiwfgs2nnw6thimq.ipfs.nftstorage.link/"
+                src={test1}
               ></img>
             </span>
           </div>

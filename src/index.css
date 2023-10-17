@@ -12,7 +12,7 @@ code {
 }
 
 /* Responsive Typography */
-@media (max-width: 300px ) {
+@media (max-width: 45rem ) {
   body {
     font-size: 14px;
   }

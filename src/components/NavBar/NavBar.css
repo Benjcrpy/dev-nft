@@ -1,35 +1,51 @@
 /* General styles */
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-  }
-  
-  /* NavBar styles */
-  .NavBar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--background-color);
-    padding: 10px 20px;
-  }
-  @media (max-width: 400px) {
-    .NavBar {
-        padding-top: 10px;
-        padding-right: 6rem;
-        padding-left: 0rem;
-        padding-bottom: 5rem;
-        flex-direction: column; /* Change to a column layout for mobile */
-        align-items: flex-start; /* Align items to the left for mobile */
-    }
-    .NavItems {
-        margin: 20px 0; /* Space out the navigation links */
-    }
-    .nav-logo {
-        left: 20rem; /* Position the logo on the left for mobile */
-    }
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
 }
-  
+
+/* NavBar styles */
+.NavBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--background-color);
+  padding: 10px 20px;
+}
+.navbtn{
+  width: 35px;
+  position: absolute;
+  right: 2rem;
+  top: 1rem;
+  display: none;
+  cursor: pointer;
+
+}
+
+.navbtn .hamburger{
+  width: 35px;
+  height: 4px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.navbtn .close {
+  position: absolute;
+  width: 35px;
+  height: 4px;
+  background-color: white;
+  transform: rotate(45deg);
+  transition: 0.4s;
+}
+
+.navbtn .close:nth-child(2) {
+  transform: rotate(-45deg);
+}
+
+
+
   /* Default NavItems styles (for desktop) */
   .NavItems {
     display: inline;
@@ -48,50 +64,6 @@ body {
   .NavItems a:hover {
     color: #ff6b81;
   }
-  
-  /* Styles for screens with a maximum width of 767px (mobile devices) */
- /* Styles for screens with a maximum width of 767px (mobile devices) */
-@media (max-width: 767px) {
-  .NavItems {
-      flex-direction: column; /* Display the links in a column for mobile */
-      justify-content: space-between; /* Distribute the links evenly vertically */
-  }
-
-  .NavItems a {
-      font-size: 18px; /* Slightly reduce font size for mobile */
-      text-align: center; /* Center the logo horizontally */
-      left: 50%; /* Set left to 50% */
-      margin-left: .5rem;
-      
-  }
-
-  .goto {
-       /* Adjust padding for mobile */
-      text-align: center; /* Center the logo horizontally */
-      left: 50%; /* Set left to 50% */
-      margin-left: 3.2rem;
-  }
-
-  .nav-logo {
-    text-align: center; /* Center the logo horizontally */
-    left: 50%; /* Set left to 50% */
-    margin-left: 3rem; /* Adjust the margin to center the logo */
-  }
-}
- 
-  
-  .goto {
-    border: none;
-    border-radius: 3rem;
-    color: #fff;
-    cursor: pointer;
-    font-size: 1.1rem;
-    font-weight: 400;
-    outline: none;
-    padding: 1rem 1.75rem;
-    transition: 0.2s;
-  }
- 
   .nav-logo {
     width: 150px;
     height: auto;
@@ -100,4 +72,91 @@ body {
    
   }
   
+  @media(max-width: 45rem) {
+    .navbtn{
+      display:block ;
+      z-index: 2;
+      cursor: pointer;
+      
   
+    }
+    
+    .navbtn .hamburger {
+      transition: none;
+    }
+    .NavItems {
+      display: none;
+    }
+    .NavItems a{
+      display: block;
+      
+      width: 100px;
+      height: 2.5rem;
+      padding: 10px 0;
+      z-index: 1;
+      top: 40px;
+      text-align: left;
+    }
+    
+    .open .NavItems {
+      display: flex; 
+      z-index: 1;
+      flex-direction: column;
+      position: absolute; 
+      padding-top: 120px;
+      padding-right: 26px;
+      top: -20px;
+      right: -20px;
+      width: 84%; /* Cover the entire width */
+      height: 100%; /* Cover the entire height */
+      background-image: linear-gradient(
+        -225deg,
+        #a3a1a8 29%,
+        #504a4c 67%,
+        #555357 100%
+      );
+      background-size: 75% ; 
+      background-repeat: no-repeat;
+      justify-content: flex-start;
+  }
+  
+   
+    
+   
+    .nav-logo {
+    
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    }
+    .open .nav-logo{
+      width: 180px; 
+    }
+  
+    .nav-logo img {
+      width: 150px;
+      height: auto; /* Set a height for the logo image */
+    }
+
+    .goto{
+      display: none;
+    }
+    .open .goto {
+      display: block;
+      z-index: 1;
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 93%; /* Adjust this percentage to your preference */
+      height: 49%; /* Adjust this percentage to your preference */
+      
+      
+    }
+    
+  }
+    
+    
+    

@@ -83,7 +83,9 @@
     padding-left:  5rem;
 }
 
-
+.tf-button-link {
+    margin-right: 0; /* Add margin to the right of both buttons */
+  }
 
 
 
@@ -102,7 +104,7 @@
     color: inherit;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 45rem) {
     .topfold {
         display: flex;
         flex-direction: column;

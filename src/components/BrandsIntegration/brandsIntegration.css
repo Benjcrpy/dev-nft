@@ -4,7 +4,7 @@
 .bi-logos{
     height: 160px;
 }
-@media (max-width: 767px) {
+@media (max-width: 45rem) {
     .bi-logos {
       height: 50px; /* Adjust the desired smaller height */
     }
