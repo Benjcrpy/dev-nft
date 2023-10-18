@@ -101,19 +101,20 @@
         align-items: center;
         text-align: center;
         padding-top: 80px;
+        margin-bottom: 80px;
     }
 
     .tf-heading {
     text-transform: uppercase;
     color: #dad0d0;
-    font-size: 3rem; /* Adjust the font size for mobile */
+    font-size: 30px; /* Adjust the font size for mobile */
     }
 
     .tf-description {
         font-size: 17px; /* Adjust the font size for mobile */
         margin: 12px 5px; /* Adjust the margin for mobile */
     }
-    .tf-left-btns {
+    .tf-left-btn {
         margin-top: 15px; /* Adjust the margin for mobile */
         display: flex;
         flex-direction: row; /* Display buttons in a row for mobile (horizontally aligned) */
@@ -122,7 +123,7 @@
          /* Center the buttons vertically */
     }
 
-    .tf-left-btns .a {
+    .tf-left-btn .a {
         margin-right: 20px; /* Add margin between buttons horizontally */
         margin-bottom: 0; /* Remove the vertical margin between buttons */
         min-width: 120px; /* Ensure a minimum width for the buttons */
@@ -152,8 +153,11 @@
     .tf-r-diamond-img {
         height: auto;
         width: auto; /* Make the image full width for mobile */
-        max-width: 500px; /* Limit the maximum width */
-        border-radius: 50px;
+        max-width: 400px; /* Limit the maximum width */
+        border-radius: 20px;
+        position: center;
+        label-align: center;
+        right: 50%px;
         display: flex;
         transition: width 2s;
         -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4));
