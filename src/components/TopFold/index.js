@@ -5,7 +5,7 @@ import homepage from '../../assets/homepage.png';
 
 const TopFold = () => {
 
-  return <div className='topfold absolute-center' section id="top-fold">
+  return <div className='top-fold absolute-center' section id="top-fold">
      
       <div className='tf-left'>
 
@@ -16,7 +16,7 @@ const TopFold = () => {
           The upcoming NFT Marketplace for artist worldwide! Make sure to upload your NFTs using the newley found marketplace!
 
         </div>
-        <div className='tf-left-btns'>
+        <div className='tf-left-btn'>
         <a href="https://marketplace-benjcrpy.vercel.app/buy" className="tf-button-link">
         <Button btnType='PRIMARY' btnText='BROWSE'   />
         </a>

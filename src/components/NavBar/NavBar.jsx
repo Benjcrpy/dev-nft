@@ -17,7 +17,7 @@ const NavBar = () => {
       <div className="logo">
         <Logo />
       </div>
-      <div className="navbtn" onClick={handleNavButtonClick}>
+      <div className="nav-btn" onClick={handleNavButtonClick}>
         {isNavOpen ? (
           <>
             <div className="close"></div>
