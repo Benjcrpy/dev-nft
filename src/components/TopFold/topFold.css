@@ -78,11 +78,10 @@
 
 
 .tf-r-diamond-img{
-    height: 400px;
-    width: 600px;
-    border-radius: 10rem;
-    border-style: solid;
-    border-color: hsl(44, 94%, 13%); /* red */
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    
     display:flex;
     transition: width 2s;
     -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(156, 22, 22, 0), rgba(0,0,0,0.4));
@@ -151,9 +150,9 @@
     }
     
     .tf-r-diamond-img {
-        height: auto;
-        width: auto; /* Make the image full width for mobile */
-        max-width: 400px; /* Limit the maximum width */
+        max-width: 100%;
+    height: auto;
+    
         border-radius: 20px;
         position: center;
         label-align: center;

@@ -28,7 +28,7 @@
   
   .au-description {
     font-size: 20px;
-    margin: 13px 0; /* Adjust margin as needed */
+    margin: 30px 0; /* Adjust margin as needed */
     height: auto;
   }
   
@@ -47,10 +47,14 @@
   }
   
   .au-left-diamond-img {
-    height: 500px;
-    width: 620px;
+    max-width: 100%;
+    height: auto;
     display: flex;
-  }
+    margin-top: 70px;
+    border-radius: 8px;
+    
+  
+}
   
   @media (max-width: 45rem) {
     .aboutus {
