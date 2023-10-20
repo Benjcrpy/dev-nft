@@ -40,14 +40,17 @@
     height: 500px;
     overflow: hidden;
     margin: 6px;
-    border-radius: 12px;
+    border-radius: 10px;
   }
   
-  .pimg {
-    height: 500px;
-    width: 620px;
+  .p-img {
+    max-width: 100%;
+    height: auto;
     display: flex;
+    border-radius: 8px;
     padding-left: 10%;
+    margin-top: 70px;
+    
   }
   
   @media (max-width: 45rem) {
@@ -56,6 +59,7 @@
       flex-direction: column; /* Change to a column layout for mobile screens */
       padding: 1rem; /* Adjust padding as needed */
       overflow-x: visible;
+      padding-bottom: 200px;
     }
 
     .product-heading {
@@ -89,10 +93,12 @@
         margin: 1rem 0; /* Add margin for spacing */
         border-radius: 12px;
         transform: none; /* Reset any transforms */
+        padding-bottom: 10px;
     }
 
     .pimg {
         width: 100%; /* Make the image width 100% of the container */
         height: auto; /* Maintain aspect ratio */
+        border-radius: 8px;
     }
 }

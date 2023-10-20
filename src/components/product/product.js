@@ -1,6 +1,6 @@
 import React from 'react'
 import "./product.css"
-import test1 from "../../assets/test1.jpg"
+import test1 from "../../assets/pro1.png"
 const Product = () => {
   return (<div className='product absolute-center'>
    <div className='product-left absolute-center'>
@@ -21,7 +21,7 @@ const Product = () => {
           <div className='product-right-item'>
             <span style={{ '--i': '1' }}>
               <img
-                className='pimg'
+                className='p-img'
                 alt="au-img"
                 src={test1}
               ></img>
