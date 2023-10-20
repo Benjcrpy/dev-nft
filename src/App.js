@@ -12,6 +12,7 @@ import Vision from './components/Vision'
 import Promotion from './components/Promotion/promotion'
 import Info from './components/infosection/info'
 import Product from './components/product/product'
+import Video from './components/Video/Video'
 
 
 const App = () => {
@@ -26,7 +27,7 @@ const App = () => {
       <AboutUs />
       <Info/>
       <Product/>
-    
+      <Video/>
       <BrandsIntegration />
       <Footer />
       
