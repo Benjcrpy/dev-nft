@@ -2,7 +2,7 @@ import React from 'react';
 import  "./promotion.css" ;
 const Promotion = () => {
   return (
-    <div className="pcontainer">
+    <div className="p-container">
     <div className="table absolute-center">
       <div className="monitor-wrapper absolute-center">
         <div className="monitor absolute-center">

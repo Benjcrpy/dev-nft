@@ -1,4 +1,4 @@
-.pcontainer {
+.p-container {
   display: flex;
   justify-content: center; /* Horizontal centering */
   align-items: center; /* Vertical centering */
@@ -6,7 +6,7 @@
   
 }
 @media(max-width: 45rem) {
-.pcontainer{
+.p-container{
   height:14rem;
 }
 }

@@ -10,7 +10,7 @@
       color: #dad0d0;
       font-size: 3rem;
 }
-.infosection {
+.info-section {
     width: 65rem;
     height: 40rem;
     padding: 20px;
@@ -20,13 +20,15 @@
     justify-content: center;
     display: flex;
     perspective: 1000px; /* Set the perspective for the 3D effect */
+    
   }
   
-  .infobox {
+  .info-box {
     margin: 15px;
     position: relative;
     transform-style: preserve-3d; /* Preserve 3D transformation for child elements */
     transition: transform 0.5s; /* Add a smooth transition effect */
+    
   }
   
   .iimg {
@@ -39,28 +41,32 @@
     transition: transform 0.5s; /* Add a smooth transition effect */
   }
   
-  .infobox:hover .iimg {
+  .info-box:hover .iimg {
     transform: rotateY(180deg); /* Flip the image on hover */
   }
-  .infobox .h2,
-.infobox .p {
+  .info-box .h2,
+.info-box .p {
+  
   opacity: 1; /* Initially, keep the .h2 and .p elements visible */
   transition: opacity 0.3s; /* Add a transition effect for a smooth fade-out */
+  
 }
 
-.infobox:hover .head{
+.info-box:hover .head{
  display: none;
 }
-.infobox:hover .descrip{
+.info-box:hover .descrip{
  display:none;
+
 }
 
-.infobox .info2 {
+.info-box .info2 {
   display: none; /* Initially hide the .info2 elements */
 }
 
-.infobox:hover .info2 {
+.info-box:hover .info2 {
   display: block; /* Display .info2 on hover */
+  font-family: 'Roboto', sans-serif;
 }
 
 /* Rest of your styles... */
@@ -84,7 +90,7 @@
     .info-heading {
       font-size: 2rem;
     }
-    .infosection {
+    .info-section {
     
       width: 100%; /* Adjust the width for smaller screens */
       height: 100%; /* Allow the height to adapt to content */
@@ -92,7 +98,7 @@
       margin-top: 10px; /* Adjust margin for smaller screens */
     }
   
-    .infobox {
+    .info-box {
         padding-bottom: 10rem;
         height: 15rem;
         width: 10rem;
@@ -107,7 +113,7 @@
       transition: transform 0.5s;
     }
   
-    .infobox:hover .iimg {
+    .info-box:hover .iimg {
       transform: none;
     }
     
@@ -115,7 +121,7 @@
       display: none; /* Initially hide the .info2 elements */
     }
     
-    .infobox:hover .info2 {
+    .info-box:hover .info2 {
       display: block; /* Display .info2 on hover */
     }
   }

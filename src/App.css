@@ -2,7 +2,7 @@
 @import url('./common/styles/variables.css');
 
 body{
-    background-color: #191C1F;
+    background-color: #0F172A;
     color: var(--white);
     font-family: 'ADLaM Display', cursive;
 }

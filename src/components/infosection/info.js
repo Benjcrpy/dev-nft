@@ -10,23 +10,23 @@ const Info = () => {
       <div className='info-heading absolute-center'>
         infoSection
       </div>
-      <div className='infosection'>
+      <div className='info-section'>
 
-        <div className='infobox'>
+        <div className='info-box'>
           <img className="iimg" src={test2} alt='test' />
           <h2 className="head">LOREM LOREM LOREM</h2>
           <p className='descrip'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi accusamus molestias quidem iusto.</p>
           <p className="info2">New content that appears on hover</p>
         </div>
 
-        <div className='infobox'>
+        <div className='info-box'>
           <img className="iimg" src={test3} alt='test' />
           <h2 className="head">LOREM LOREM LOREM</h2>
           <p className='descrip'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi accusamus molestias quidem iusto.</p>
           <p className="info2">New content that appears on hover</p>
         </div>
 
-        <div className='infobox'>
+        <div className='info-box'>
           <img className="iimg" src={test4} alt='test' />
           <h2 className="head">LOREM LOREM LOREM</h2>
           <p className='descrip'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi accusamus molestias quidem iusto.</p>

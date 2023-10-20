@@ -12,6 +12,8 @@ body {
   align-items: center;
   background-color: var(--background-color);
   padding: 10px 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
 }
 .nav-btn{
   width: 35px;

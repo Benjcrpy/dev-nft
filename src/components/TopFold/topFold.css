@@ -3,7 +3,7 @@
     height: 80vh;
     overflow: hidden;
     padding: 100px;
-    padding-bottom: 30rem;
+    padding-bottom: 15rem;
 }
 
 .tf-right{
@@ -34,6 +34,7 @@
 .tf-description{
     font-size: 20px;
     margin: 24px 0px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .tf-left-btn{
@@ -93,6 +94,8 @@
     color: inherit;
 }
 
+
+
 @media (max-width: 45rem) {
     .top-fold {
         display: flex;
@@ -100,6 +103,7 @@
         align-items: center;
         text-align: center;
         padding-top: 80px;
+        padding-bottom: 10px;
         margin-bottom: 80px;
     }
 
@@ -116,6 +120,8 @@
     .tf-left-btn {
         margin-top: 15px; /* Adjust the margin for mobile */
         display: flex;
+        gap: 10px;
+        padding-bottom: 50px;
         flex-direction: row; /* Display buttons in a row for mobile (horizontally aligned) */
         align-items: center;
         
@@ -149,16 +155,16 @@
         font-weight: 600;
     }
     
-    .tf-r-diamond-img {
-        max-width: 100%;
-    height: auto;
     
+    .tf-r-diamond-img {
+        height: auto;
+        width: auto; /* Make the image full width for mobile */
+        max-width: 20rem; /* Limit the maximum width */
         border-radius: 20px;
-        position: center;
-        label-align: center;
-        right: 50%px;
+        padding-right: 80px;
         display: flex;
         transition: width 2s;
         -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4));
+        padding-bottom: 20px;   
     }
 }

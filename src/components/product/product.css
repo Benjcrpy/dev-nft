@@ -22,12 +22,16 @@
   .product-heading {
     text-transform: uppercase;
     color: #dad0d0;
-    font-size: 3rem;
+    font-size: 40px;
+    padding-bottom: 10px;
+    padding-top: 60px;
   }
   
   .product-description {
     font-size: 17px;
     margin: 13px 0; /* Adjust margin as needed */
+    font-family: 'Roboto', sans-serif; 
+    word-break: break-all;
   }
   
   

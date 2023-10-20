@@ -1,7 +1,9 @@
-.aboutus {
+.about-us {
     display: flex; /* Add flex display to arrange the items horizontally */
-    padding-bottom: 20rem;
+    padding-bottom: 5rem;
     overflow: hidden;
+    word-break: break-all;
+    font-family: 'Roboto', sans-serif;
   }
   
   .au-left {
@@ -57,11 +59,12 @@
 }
   
   @media (max-width: 45rem) {
-    .aboutus {
+    .about-us {
       display: flex;
       flex-direction: column; /* Change to a column layout for mobile screens */
       padding: 1rem; /* Adjust padding as needed */
       overflow-x: visible;
+      padding-bottom: 150px;
     }
   
     .au-left {

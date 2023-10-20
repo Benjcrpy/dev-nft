@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Slackey&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&family=Sometype+Mono&display=swap');
 
 body {
   margin: 0;
   font-family:  'ADLaM Display', cursive;;
+  
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
