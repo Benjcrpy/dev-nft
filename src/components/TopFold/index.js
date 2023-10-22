@@ -1,6 +1,6 @@
 import './topFold.css';
 import Button from '../../common/Button';
-import homepage from '../../assets/homepage.png';
+import homepage from '../../assets/homepage1.png';
 
 
 const TopFold = () => {
@@ -31,6 +31,8 @@ const TopFold = () => {
           <div className='tf-r-diamond-item'>
           <img 
           className='tf-r-diamond-img' 
+          width={500}
+          height={500}
           alt="diamond-banner"
           src={homepage}
           >
