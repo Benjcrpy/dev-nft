@@ -1,7 +1,7 @@
 import React from 'react';
-import test2 from "../../assets/test2.jpeg";
-import test3 from "../../assets/test3.avif";
-import test4 from "../../assets/test4.jpg";
+import test2 from "../../assets/info1.png";
+import test3 from "../../assets/info2.png";
+import test4 from "../../assets/info4.png";
 import "./info.css";
 
 const Info = () => {
