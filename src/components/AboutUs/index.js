@@ -24,10 +24,12 @@ const AboutUs = () => {
           Vision
         </div>
         <div className='au-description'>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec lacus ac magna blandit aliquet. 
-        Fusce enim massa, tincidunt id ullamcorper a, imperdiet in velit. Nullam id vehicula odio. Pellentesque 
-        congue semper leo. Etiam scelerisque nisl vel lacus condimentum, consectetur rhoncus lectus tempus. 
-        Nam rhoncus pellentesque nisl ac tempus. Duis mattis suscipit elit a faucibus. 
+        To picture a world in which digital works of art, collectibles, 
+        and intellectual property are safely and openly tokenized, 
+        enabling creators to be fairly compensated and collectors to 
+        acquire truly one-of-a-kind digital goods. Being the leading 
+        NFT marketplace, it is our objective to enable creators and 
+        collectors to take part in the digital revolution. 
         </div>
       </div>
     </div>

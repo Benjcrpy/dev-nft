@@ -8,12 +8,18 @@ const Product = () => {
           Product & Services
         </div>
         <div className='product-description'>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec lacus ac magna blandit aliquet. 
-        Fusce enim massa, tincidunt id ullamcorper a, imperdiet in velit. Nullam id vehicula odio. Pellentesque 
-        congue semper leo. Etiam scelerisque nisl vel lacus condimentum, consectetur rhoncus lectus tempus. 
-        Nam rhoncus pellentesque nisl ac tempus. Duis mattis suscipit elit a faucibus. Donec lacinia orci sed tortor 
-        molestie condimentum. Nulla non leo sed erat vestibulum tincidunt. Sed vel turpis tortor. Donec et mauris fermentum, 
-        facilisis ipsum quis, auctor tortor. Cras et libero maximus, porttitor nisl at, consequat dolor. 
+        Our primary offering, the NFT Trading Platform, enables customers to buy, 
+        sell, and trade NFTs. Users can find and purchase digital assets, such as 
+        music, real estate online, and more.
+        Support for Creators: We provide tools and resources to enable 
+        content producers like as musicians, game developers, and artists to tokenize 
+        and sell their works as NFTs. This covers how-to manuals, legal assistance, and advertising services.
+        Benefits for Collectors: Collectors can take part in auctions, 
+        check provenance information, and make sure their NFTs are real. 
+        Additionally, we offer a safe digital wallet for keeping track of NFT holdings.
+        the NFTS Collection are finally listed
+        Meet the talented sellers behind the products you love."
+        "Discover hidden gems and unique items from our network of sellers."
         </div>
       </div>
       <div className='product-right'>

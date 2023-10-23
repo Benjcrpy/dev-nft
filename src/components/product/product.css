@@ -31,7 +31,7 @@
     font-size: 14px;
     margin: 13px 0; /* Adjust margin as needed */
     font-family: 'Roboto', sans-serif; 
-    word-break: break-all;
+    overflow-wrap: break-word;
   }
   
   

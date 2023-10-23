@@ -3,7 +3,7 @@ import "./infoSection.css"
 import denzel from "../../assets/denzel.jpg"
 import anthony from "../../assets/anthony.png"
 import george from "../../assets/george.png"
-import enrico from "../../assets/enrico.png"
+import enrico from "../../assets/ems.jpg"
 import kirby from "../../assets/kirby.jpg"
 import lasim from "../../assets/Lasim.jpg"
 
