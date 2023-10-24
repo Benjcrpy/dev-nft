@@ -21,7 +21,7 @@ const Vision = () => {
     <div className="content">
       <div>
         <h2>Denzel Joy Serano</h2>
-        <p>Product Lead
+        <p> Project Manager
         </p>
       </div>
     </div>
@@ -33,7 +33,7 @@ const Vision = () => {
     <div className="content">
       <div>
         <h2>Anthony Agapay</h2>
-        <p>Lead Developer
+        <p>Lead Developers 
         </p>
       </div>
     </div>
@@ -45,7 +45,7 @@ const Vision = () => {
     <div className="content">
       <div>
         <h2>George Marquez</h2>
-        <p> Co-Developer
+        <p> Developers
         </p>
       </div>
     </div>
@@ -57,7 +57,7 @@ const Vision = () => {
     <div className="content">
       <div>
         <h2>Enrico</h2>
-        <p> Project Manager
+        <p> Quality Assurance 
         </p>
       </div>
     </div>
@@ -69,7 +69,7 @@ const Vision = () => {
     <div className="content">
       <div>
         <h2>Kirby Sembrano</h2>
-        <p> Documention
+        <p>  System Architect
         </p>
       </div>
     </div>
@@ -81,7 +81,7 @@ const Vision = () => {
     <div className="content">
       <div>
         <h2>Lasim</h2>
-        <p>Documention
+        <p>UX Designer
         </p>
       </div>
     </div>
