@@ -1,9 +1,10 @@
 import React from "react";
 import ReactPlayer from "react-player";
+import images from "../../assets/vision1.png";
 
 //INTERNALIMPORT
 import Style from "./Video.css";
-import images from "../../assets/anthony.png";
+
 
 const Video = () => {
   return (
@@ -20,10 +21,8 @@ const Video = () => {
         <div className={Style.Video_box_frame}>
           <div className={Style.Video_box_frame_left}>
             <ReactPlayer
-              src={images}
-              alt="Video image"
-              width={50}
-              height={50}
+              url={images}
+              
               className={Style.Video_box_frame_left_img}
             />
           </div>
