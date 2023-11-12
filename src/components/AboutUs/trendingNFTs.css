@@ -2,7 +2,7 @@
     display: flex; /* Add flex display to arrange the items horizontally */
     padding-bottom: 5rem;
     overflow: hidden;
-    word-break: break-all;
+    word-break: keep-all;
     font-family: 'Roboto', sans-serif;
   }
   
