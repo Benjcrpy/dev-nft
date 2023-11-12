@@ -35,8 +35,8 @@ const NavBar = () => {
         <a href="#top-fold">Home</a>
         <a href="#about-us">About Us</a>
         <a href="#vision">Vision</a>
-        <a href="#vision">Infosection</a>
-        <a href="#vision">Product & Services</a>
+        <a href="#infosection">Infosection</a>
+        <a href="#Product">Product & Services</a>
       </div>
       <div className="goto">
         <a href="https://marketplace-benjcrpy.vercel.app/">

@@ -24,12 +24,10 @@ const AboutUs = () => {
           Vision
         </div>
         <div className='au-description'>
-        To picture a world in which digital works of art, collectibles, 
-        and intellectual property are safely and openly tokenized, 
-        enabling creators to be fairly compensated and collectors to 
-        acquire truly one-of-a-kind digital goods. Being the leading 
-        NFT marketplace, it is our objective to enable creators and 
-        collectors to take part in the digital revolution. 
+        To revolutionize the way we perceive and interact with art in the digital realm. 
+        We believe in empowering digital artists, fostering community engagement, 
+        and pushing the boundaries of creativity through the revolutionary 
+        medium of Non-Fungible Tokens (NFTs).
         </div>
       </div>
     </div>
