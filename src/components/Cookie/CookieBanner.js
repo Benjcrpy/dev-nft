@@ -1,4 +1,5 @@
 import posthog from "posthog-js"
+import "./cookie.css"
 import { useState } from "react";
 
    
@@ -11,18 +12,15 @@ function CookieBanner() {
         setShowBanner(false);
     }
 
-    const declineCookies = () => {
-        posthog.opt_out_capturing();
-        setShowBanner(false);
-    }
+   
 
     return (
-        <div>
+        <div className='box'>
             {showBanner && (
-                <div>
-                    <p>We use cookies to make our product better, please accept</p>
-                    <button onClick={acceptCookies}>Accept</button>
-                    <button onClick={declineCookies}>Decline</button>
+                <div className='co-description'>
+                    <p>We use cookies to enhance your user experience by using our website, you agree to our use of cookies</p>
+                    <button className='btn' onClick={acceptCookies}>Accept</button>
+                   
                 </div>
             )}
         </div>

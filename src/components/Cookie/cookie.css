@@ -1,0 +1,23 @@
+.box{
+  width: 50%;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.co-description {
+    background-color: thistle;
+    border: 2px solid rgb(196, 228, 13);
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 30px 0; /* Adjust margin as needed */
+    height: auto;
+    word-wrap: break-wordl;
+    text-align: center;
+    color:black;
+}
+
+.co-description btn{
+    background-color: blue;
+}
+

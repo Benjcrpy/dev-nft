@@ -12,7 +12,7 @@ import Vision from './components/Vision'
 import Promotion from './components/Promotion/promotion'
 import Info from './components/infosection/info'
 import Product from './components/product/product'
-import CookieBanner from './CookieBanner'
+import CookieBanner from './components/Cookie/CookieBanner'
 import posthog from 'posthog-js'
 
 
@@ -20,9 +20,10 @@ const App = () => {
   return (
     <div className='max-width'>
     
-     
+    {posthog.has_opted_in_capturing()||posthog.has_opted_out_capturing() ? null : <CookieBanner/>}
      <NavBar/>
       <Promotion/>
+      
       <TopFold />
       <Vision />
       <AboutUs />
@@ -30,7 +31,6 @@ const App = () => {
       <Product/>
       <BrandsIntegration />
       <Footer />
-      {posthog.has_opted_in_capturing()||posthog.has_opted_out_capturing() ? null : <CookieBanner/>}
     </div>
     
   )
