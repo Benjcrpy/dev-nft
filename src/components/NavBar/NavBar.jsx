@@ -59,7 +59,7 @@ const NavBar = () => {
       </div>
       <div className="goto">
         <a href="https://marketplace-benjcrpy.vercel.app/">
-          <Button btnType='PRIMARY' btnText='Marketplace'/>
+          <Button btnType='PRIMARY' btnText='-Marketplace-'/>
         </a>
       </div>
     </div>
