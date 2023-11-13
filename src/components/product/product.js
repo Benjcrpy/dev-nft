@@ -16,10 +16,7 @@ const Product = () => {
         and sell their works as NFTs. This covers how-to manuals, legal assistance, and advertising services.
         Benefits for Collectors: Collectors can take part in auctions, 
         check provenance information, and make sure their NFTs are real. 
-        Additionally, we offer a safe digital wallet for keeping track of NFT holdings.
-        the NFTS Collection are finally listed
-        Meet the talented sellers behind the products you love."
-        "Discover hidden gems and unique items from our network of sellers."
+        
         </div>
       </div>
       <div className='product-right'>
