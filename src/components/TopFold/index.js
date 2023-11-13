@@ -7,7 +7,8 @@ import AboutUs from '../AboutUs';
 
 const TopFold = () => {
 
-  return <div className={`topfold absolute-center`}>
+  return <div className='topfold absolute-center' section id="top-fold">
+     
       <div className='tf-left'>
 
         <div className='tf-heading'>

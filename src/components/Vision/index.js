@@ -3,7 +3,8 @@ import "./infoSection.css"
 import homepage from "../../assets/test.jpg"
 
 const Vision = () => {
-  return <div className='vision'>
+  return <div className='vision'section id="about-us">
+    
     <div className='vision-heading absolute-center'>
       AboutUs
     </div>
@@ -83,6 +84,7 @@ const Vision = () => {
   
   
 </div>
+
 </div>
 }
 export default Vision

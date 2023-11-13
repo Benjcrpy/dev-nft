@@ -5,7 +5,7 @@ import test1 from "../../assets/test1.jpg"
 
 const AboutUs = () => {
   return (
-    <div className='aboutus absolute-center'>
+    <div className='aboutus absolute-center' section id="vision">
       <div className='au-left'>
         <div className='au-left-diamond'>
           <div className='au-left-diamond-item'>

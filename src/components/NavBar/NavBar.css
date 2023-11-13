@@ -71,6 +71,10 @@ body {
     left: 0; /* Adjust as needed for horizontal positioning */
    
   }
+  .smooth-scroll {
+    scroll-behavior: smooth;
+    transition-duration: 1s; /* Adjust as needed for your desired scroll speed */
+  }
   
   @media(max-width: 45rem) {
     .navbtn{

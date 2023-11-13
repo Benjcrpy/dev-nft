@@ -172,6 +172,9 @@
         font-size: 14px;
         font-weight: 600;
     }
+    .tf-right{
+        display:none;
+    }
     
     .tf-r-diamond-img {
         height: auto;

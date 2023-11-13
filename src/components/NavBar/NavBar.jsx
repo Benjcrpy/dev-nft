@@ -1,4 +1,3 @@
-// JavaScript
 import React, { useState } from "react";
 import "./NavBar.css";
 import { Logo } from "./index";
@@ -12,6 +11,16 @@ const NavBar = () => {
 
   const handleNavButtonClick = () => {
     setIsNavOpen(!isNavOpen);
+  };
+
+  const handleSmoothScroll = () => {
+    // Add the "smooth-scroll" class to the body for smooth scrolling
+    document.body.classList.add("smooth-scroll");
+
+    // Remove the "smooth-scroll" class after scrolling is complete
+    setTimeout(() => {
+      document.body.classList.remove("smooth-scroll");
+    }, 1000); // Adjust the delay (in milliseconds) to match your transition duration
   };
 
   return (
@@ -34,9 +43,9 @@ const NavBar = () => {
         )}
       </div>
       <div className="NavItems">
-        <a href="#top-fold">Home</a>
-        <a href="#about-us">About Us</a>
-        <a href="#vision">Vision</a>
+        <a href="#top-fold" onClick={handleSmoothScroll}>Home</a>
+        <a href="#about-us" onClick={handleSmoothScroll}>About Us</a>
+        <a href="#vision" onClick={handleSmoothScroll}>Vision</a>
       </div>
       <div className="goto">
         <a href="#">
