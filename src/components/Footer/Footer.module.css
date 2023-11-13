@@ -1,17 +1,18 @@
 
-.footer_box_social_logo{
-  font-size: 5rem;
-
+.footer_box_social p{
+  word-break: keep-all;
+  text-align: justify;
 }
 
-.footer{
+.footer{ 
   width: 100%;
   padding-block: 1.5rem;
   position: relative;
- word-break: keep-all;
-    text-align: justify;
+
  
 }
+
+
 
 .footer_box{
   width: 80%;
