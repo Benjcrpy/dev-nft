@@ -1,18 +1,14 @@
-.pcontainer {
+.p-container {
   display: flex;
   justify-content: center; /* Horizontal centering */
   align-items: center; /* Vertical centering */
-  
 }
-@media(max-width: 45rem) {
-.pcontainer{
-  height:14rem;
-}
-}
+
+
 .table {
-  width: 100%;
+  width: 90rem;
   height: 70px;
-  background-color: #d4e5ff;
+  background-color: #FEDB46;
 
 }
   .monitor-wrapper {
@@ -31,11 +27,11 @@
     }
        .p {
         font-family: 'VT323', monospace;
-        font-size: 20px;
+        font-size: 15px;
         position: relative;
         display: inline-block;
-        animation: move 25s infinite linear;
-        color: #EBB55F;
+        animation: move 15s infinite linear;
+        color: white;
       }
       @keyframes move {
         from {
@@ -45,3 +41,18 @@
           left: -40rem;
         }
       }
+
+
+@media(max-width: 45rem) {
+.p-container{
+  height:14rem;
+}
+
+.table {
+  width: 370px;
+  height: 70px;
+  background-color: #FEDB46;
+
+}
+
+}

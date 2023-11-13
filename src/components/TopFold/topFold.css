@@ -1,8 +1,15 @@
-.topfold{
+.top-fold{
     display: flex;
     height: 80vh;
     overflow: hidden;
-    padding: 130px;
+    padding: 100px;
+    padding-bottom: 30rem;
+ 
+    
+}
+
+.tf-right{
+    display:none;
 }
 
 .tf-left{
@@ -10,29 +17,14 @@
     flex-direction: column;
     flex: 1;
     padding-right: 0rem;
+
 }
 
 .tf-heading{
     
-        text-transform: uppercase;
-       background-image: linear-gradient(
-         -225deg,
-         #231557 0%,
-         #44107a 29%,
-         #ff1361 67%,
-         #fff800 100%
-       );
-       background-size: auto auto;
-       background-clip: border-box;
-       background-size: 200% auto;
-       color: #fff;
-       background-clip: text;
-       text-fill-color: transparent;
-       -webkit-background-clip: text;
-       -webkit-text-fill-color: transparent;
-       animation: textclip 2s linear infinite;
-       display: inline-block;
-           font-size: 40px;
+    text-transform: uppercase;
+    color: #dad0d0;
+    font-size: 3rem;
      }
      
      @keyframes textclip {
@@ -45,9 +37,12 @@
 .tf-description{
     font-size: 20px;
     margin: 24px 0px;
+    font-family: 'Roboto', sans-serif;
+    word-break: keep-all;
+    text-align: justify;
 }
 
-.tf-left-btns{
+.tf-left-btn{
     margin-top: 36px;
     display: flex;
 }
@@ -88,65 +83,57 @@
   }
 
 
-
 .tf-r-diamond-img{
-    height: 330px;
-    width: 500px;
-    border-radius: 50px;
+    
+    width: 600px;
+    height: 300px;
+    border-radius: 2px;
     display:flex;
     transition: width 2s;
-    -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+    -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(156, 22, 22, 0), rgba(0,0,0,0.4));
     
 }
 
-.tf-left-btns a.a {
+.tf-left-btn a.a {
     text-decoration: none;
     color: inherit;
 }
 
+
+
 @media (max-width: 45rem) {
-    .topfold {
+    .top-fold {
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
         padding-top: 80px;
+        padding-bottom: 10px;
+        margin-bottom: 80px;
     }
 
     .tf-heading {
-        text-transform: uppercase;
-    background-image: linear-gradient(
-        -225deg,
-        #231557 0%,
-        #44107a 29%,
-        #ff1361 67%,
-        #fff800 100%
-    );
-    background-size: auto auto;
-    background-clip: border-box;
-    background-size: 200% auto;
-    color: #fff;
-    background-clip: text;
-    text-fill-color: transparent;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: textclip 2s linear infinite;
-    display: inline-block;
-    font-size: 26px; /* Adjust the font size for mobile */
+    text-transform: uppercase;
+    color: #dad0d0;
+    font-size: 30px; /* Adjust the font size for mobile */
     }
 
     .tf-description {
         font-size: 17px; /* Adjust the font size for mobile */
         margin: 12px 5px; /* Adjust the margin for mobile */
     }
-    .tf-left-btns {
+    .tf-left-btn {
         margin-top: 15px; /* Adjust the margin for mobile */
         display: flex;
+        gap: 10px;
+        padding-bottom: 50px;
         flex-direction: row; /* Display buttons in a row for mobile (horizontally aligned) */
-        align-items: center; /* Center the buttons vertically */
+        align-items: center;
+        
+         /* Center the buttons vertically */
     }
 
-    .tf-left-btns .a {
+    .tf-left-btn .a {
         margin-right: 20px; /* Add margin between buttons horizontally */
         margin-bottom: 0; /* Remove the vertical margin between buttons */
         min-width: 120px; /* Ensure a minimum width for the buttons */
@@ -172,21 +159,17 @@
         font-size: 14px;
         font-weight: 600;
     }
-    .tf-right{
-        display:none;
-    }
+    
     
     .tf-r-diamond-img {
         height: auto;
-        width: 100%; /* Make the image full width for mobile */
-        max-width: 500px; /* Limit the maximum width */
-        border-radius: 50px;
+        width: auto; /* Make the image full width for mobile */
+        max-width: 20rem; /* Limit the maximum width */
+        border-radius: 20px;
+        padding-right: 80px;
         display: flex;
         transition: width 2s;
         -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4));
+        padding-bottom: 20px;   
     }
 }
-
-
-
-

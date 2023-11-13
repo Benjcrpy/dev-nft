@@ -1,18 +1,9 @@
 @import url('./common/styles/commonClasses.css');
 @import url('./common/styles/variables.css');
-@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Kanit:wght@100&family=Pixelify+Sans:wght@400;500;600;700&display=swap');
 
 body{
-    background-color: var(--background);
+    background-color: #0F172A;
     color: var(--white);
-    font-family: 'Kanit', sans-serif;
-    
+    font-family: 'ADLaM Display', cursive;
 }
-h1, h2, h3 {
-    font-family: 'ADLaM Display', sans-serif; /* Apply the ADLaM Display font to headings */
-  }
-  
-  p {
-    font-family: 'Pixelify Sans', sans-serif; /* Apply the Pixelify Sans font to paragraphs */
-  }
 

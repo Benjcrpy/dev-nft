@@ -1,14 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Pixelify+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Slackey&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&family=Sometype+Mono&display=swap');
 
 body {
   margin: 0;
-  font-family: 'ADLaM Display', cursive;
+  font-family:  'ADLaM Display', cursive;;
+  
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  font-family: 'ADLaM Display', cursive;
 }
 
 /* Responsive Typography */
@@ -22,4 +24,49 @@ code {
   }
 }
 
+body {
+  color: #ffffff;
+  background: #191c1f;
+  --color-primary: rgb(39, 39, 38);
+  --color-secondary: #ff2136;
+  --color-tertiary: #0294fe;
+  --color-quaternary: #9b4dff;
+  --card-background: #252133;
+  --highlighted-background: rgb(32, 3, 3);
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 1rem;
+  border: 1px solid var(--highlighted-background);
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 0;
+  background-color: var(--main-bg-color);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 2rem;
+  background: var(--color-primary);
+  width: 0.5rem;
+}
 /* Add more media queries as needed for different screen sizes */

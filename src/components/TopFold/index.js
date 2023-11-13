@@ -1,13 +1,11 @@
-
 import './topFold.css';
 import Button from '../../common/Button';
-import homepage from '../../assets/homepage.png';
-import Vision from '../Vision/index'
-import AboutUs from '../AboutUs';
+import homepage from '../../assets/homepage1.png';
+
 
 const TopFold = () => {
 
-  return <div className='topfold absolute-center' section id="top-fold">
+  return <div className='top-fold absolute-center' section id="top-fold">
      
       <div className='tf-left'>
 
@@ -18,44 +16,27 @@ const TopFold = () => {
           The upcoming NFT Marketplace for artist worldwide! Make sure to upload your NFTs using the newley found marketplace!
 
         </div>
-        <div className='tf-left-btns'>
-        <a href={<AboutUs/> }className="tf-button-link">
+        <div className='tf-left-btn'>
+        <a href="https://marketplace-benjcrpy.vercel.app/buy" className="tf-button-link">
         <Button btnType='PRIMARY' btnText='BROWSE'   />
         </a>
-        <a href={<Vision/>}className="tf-button-link">
+        <a href="https://thirdweb.com/mumbai/0xB0Debc1FB8c9480c21d8A9f8498cCA08A08b7539/direct-listings" className="tf-button-link">
         <Button btnType='SECONDARY' btnText='CREATE' customClass='tf-left-secondary-btn' />
         </a>
         </div>
-        <div className='tf-left-infoStats absolute-center'>
-          <div className='tf-is-infoItem absolute-center' >
-            <div className='tf-infoItem-count'>1K+</div>
-            <div className='tf-infoItem-label'>Collection</div>
-
-          </div>
-          <div className='tf-is-infoItem absolute-center'>
-            <div className='tf-infoItem-count'>70</div>
-            <div className='tf-infoItem-label'>Current Artist</div>
-
-          </div>
-          <div className='tf-is-infoItem absolute-center'>
-            <div className='tf-infoItem-count'>30</div>
-            <div className='tf-infoItem-label'>Communities</div>
-
-          </div>
-          
-        </div>
+        
       
       </div>
       <div className='tf-right'>
           <div className='tf-r-diamond-item'>
           <img 
           className='tf-r-diamond-img' 
+          width={500}
+          height={500}
           alt="diamond-banner"
           src={homepage}
           >
           </img>
-          
-          
 
           </div>
 

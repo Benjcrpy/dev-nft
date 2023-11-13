@@ -2,14 +2,16 @@ import React from 'react';
 import  "./promotion.css" ;
 const Promotion = () => {
   return (
-    <div className="pcontainer">
+    <div className="p-container">
     <div className="table absolute-center">
       <div className="monitor-wrapper absolute-center">
-        <div className="monitor absolute-center">
+        <div className="monitor">
           <p className='p'>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tempus sem nibh, a tincidunt arcu malesuada ut. Fusce maximus egestas convallis. Nullam placerat magna sit amet turpis porta congue. Donec imperdiet vitae elit ac auctor. Aliquam non purus nec urna mollis ultrices ultricies sit amet eros. In pretium massa sed nisi consectetur, eget porta ex malesuada. Vestibulum bibendum, nulla at rutrum porttitor, urna odio pharetra leo, nec egestas metus mi eget enim. Nulla ut dui eu orci imperdiet elementum et at neque. Etiam sit amet augue congue, finibus eros quis, aliquam est. Etiam sem nulla, interdum vel congue at, vulputate a ligula. Aliquam a gravida est.
+          Building an NFT marketplace with these features can be complex, 
+          requiring a deep understanding of blockchain technology, 
+          smart contracts, and web development. Consider seeking professional 
+          assistance if you're not experienced in these areas.
           </p>
-          
         </div>
       </div>
     </div>

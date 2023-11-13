@@ -1,8 +1,11 @@
 .brand-integration{
     width: 80%;
+    
 }
 .bi-logos{
     height: 160px;
+    padding-bottom: 10rem;
+    
 }
 @media (max-width: 45rem) {
     .bi-logos {
