@@ -38,6 +38,9 @@ const NavBar = () => {
             <div className="hamburger"></div>
           </>
         )}
+
+        
+
       </div>
       <div className="NavItems">
         <a href="#top-fold">Home</a>
@@ -45,12 +48,9 @@ const NavBar = () => {
         <a href="#vision">Vision</a>
         <a href="#infosection">Infosection</a>
         <a href="#product">Product & Services</a>
-
-        
-
       </div>
       
-      <GoogleOAuthProvider clientId="354546675754-l0qb6u36crsh957js7lt54soesom752j.apps.googleusercontent.com">
+      <GoogleOAuthProvider clientId="354546675754-l0qb6u36crsh957js7lt54soesom752j.apps.googleusercontent.com" className="goolge-ri">
         <GoogleLogin
           onSuccess={credentialResponse => {
             const details = jwtDecode(credentialResponse.credential);
@@ -67,9 +67,6 @@ const NavBar = () => {
           <Button btnType='PRIMARY' btnText='Marketplace'/>
         </a>
       </div>
-
-
-        
 
     </div>
   );

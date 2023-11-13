@@ -12,7 +12,8 @@ import Vision from './components/Vision'
 import Promotion from './components/Promotion/promotion'
 import Info from './components/infosection/info'
 import Product from './components/product/product'
-
+import CookieBanner from './CookieBanner'
+import posthog from 'posthog-js'
 
 
 const App = () => {
@@ -27,11 +28,11 @@ const App = () => {
       <AboutUs />
       <Info/>
       <Product/>
-
       <BrandsIntegration />
       <Footer />
-      
+      {posthog.has_opted_in_capturing()||posthog.has_opted_out_capturing() ? null : <CookieBanner/>}
     </div>
+    
   )
 
 }
