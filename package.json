@@ -3,18 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@react-oauth/google": "^0.11.1",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "jwt-decode": "^4.0.0",
     "next": "^13.5.5",
     "path-browserify": "^1.0.1",
     "pug": "^3.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-
-
     "react-google-login": "^5.2.2",
-
     "react-icons": "^4.11.0",
     "react-player": "^2.13.0",
     "react-router-dom": "^6.16.0",
