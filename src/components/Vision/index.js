@@ -20,7 +20,7 @@ const Vision = () => {
     </div>
     <div className="content">
       <div>
-        <h2>Denzel Joy Serano</h2>
+        <h2>Denzel Joy Serrano</h2>
         <p> Project Manager
         </p>
       </div>
@@ -56,7 +56,7 @@ const Vision = () => {
        </div>
     <div className="content">
       <div>
-        <h2>Enrico</h2>
+        <h2>Enrico Lozada</h2>
         <p> Quality Assurance 
         </p>
       </div>
@@ -80,7 +80,7 @@ const Vision = () => {
        </div>
     <div className="content">
       <div>
-        <h2>Lasim</h2>
+        <h2>Kristella Lasim</h2>
         <p>UX Designer
         </p>
       </div>
