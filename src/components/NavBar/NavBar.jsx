@@ -49,7 +49,7 @@ const NavBar = () => {
         <a href="#infosection">Infosection</a>
         <a href="#product">Product & Services</a>
       </div>
-      
+      <div className="login">
       <GoogleOAuthProvider clientId="354546675754-l0qb6u36crsh957js7lt54soesom752j.apps.googleusercontent.com" className="goolge-ri">
         <GoogleLogin
           onSuccess={credentialResponse => {
@@ -61,7 +61,7 @@ const NavBar = () => {
           console.log('Login Failed')
             }} />
       </GoogleOAuthProvider>
-
+      </div>
       <div className="goto">
         <a href="https://marketplace-benjcrpy.vercel.app/">
           <Button btnType='PRIMARY' btnText='Marketplace'/>

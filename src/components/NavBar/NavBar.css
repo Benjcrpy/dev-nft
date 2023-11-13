@@ -140,6 +140,10 @@ body {
     .goto{
       display: none;
     }
+    .login{
+      display:none
+    }
+
     .open .goto {
       display: block;
       z-index: 1;
@@ -147,13 +151,25 @@ body {
       flex-direction: column;
       position: absolute;
       bottom: 0;
-      right: 0;
+      right: 14px;
       width: 93%; /* Adjust this percentage to your preference */
-      height: 49%; /* Adjust this percentage to your preference */
+      height: 44%; /* Adjust this percentage to your preference */
       
       
     }
-    
+    .open .login {
+      display: block;
+      z-index: 1;
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      bottom: 0;
+      right: 14px;  
+      width: 93%; /* Adjust this percentage to your preference */
+      height: 33%; /* Adjust this percentage to your preference */
+      
+      
+    }
   }
     
     
