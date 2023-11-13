@@ -7,7 +7,10 @@ const Promotion = () => {
       <div className="monitor-wrapper absolute-center">
         <div className="monitor absolute-center">
           <p className='p'>
-          Building an NFT marketplace with these features can be complex, requiring a deep understanding of blockchain technology, smart contracts, and web development. Consider seeking professional assistance if you're not experienced in these areas.
+          Building an NFT marketplace with these features can be complex, 
+          requiring a deep understanding of blockchain technology, 
+          smart contracts, and web development. Consider seeking professional 
+          assistance if you're not experienced in these areas.
           </p>
 
           

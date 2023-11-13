@@ -1,6 +1,6 @@
 import React from 'react'
 import "./infoSection.css"
-import denzel from "../../assets/denzel.jpg"
+import denzel from "../../assets/panget.jpg"
 import anthony from "../../assets/anthony.png"
 import george from "../../assets/george.png"
 import enrico from "../../assets/ems.jpg"
@@ -33,7 +33,7 @@ const Vision = () => {
     <div className="content">
       <div>
         <h2>Anthony Agapay</h2>
-        <p>Lead Developers 
+        <p>Lead Developer
         </p>
       </div>
     </div>
@@ -45,7 +45,7 @@ const Vision = () => {
     <div className="content">
       <div>
         <h2>George Marquez</h2>
-        <p> Developers
+        <p> Developer
         </p>
       </div>
     </div>

@@ -2,9 +2,6 @@
     padding: 10px;
     padding-bottom: 20rem;
     padding-top: 4rem;
-
-    
-    
 }
 .info-heading{
       text-transform: uppercase;
@@ -21,7 +18,7 @@
     justify-content: center;
     display: flex;
     perspective: 1000px; /* Set the perspective for the 3D effect */
-    padding-left: 18rem;
+
     
   }
   

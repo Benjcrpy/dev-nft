@@ -7,7 +7,7 @@ import "./info.css";
 const Info = () => {
   return (
     <div className='info'>
-      <div className='info-heading absolute-center'>
+      <div className='info-heading absolute-center' section id="infosection">
         infoSection
       </div>
       <div className='info-section'>

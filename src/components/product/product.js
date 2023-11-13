@@ -7,7 +7,7 @@ const Product = () => {
         <div className='product-heading'>
           Product & Services
         </div>
-        <div className='product-description'>
+        <div className='product-description' section id="product">
         Our primary offering, the NFT Trading Platform, enables customers to buy, 
         sell, and trade NFTs. Users can find and purchase digital assets, such as 
         music, real estate online, and more.

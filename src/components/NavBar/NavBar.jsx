@@ -36,7 +36,7 @@ const NavBar = () => {
         <a href="#about-us">About Us</a>
         <a href="#vision">Vision</a>
         <a href="#infosection">Infosection</a>
-        <a href="#Product">Product & Services</a>
+        <a href="#product">Product & Services</a>
       </div>
       <div className="goto">
         <a href="https://marketplace-benjcrpy.vercel.app/">
