@@ -18,7 +18,7 @@
     justify-content: center;
     display: flex;
     perspective: 1000px; /* Set the perspective for the 3D effect */
-
+    padding-left: 3rem;
     
   }
   

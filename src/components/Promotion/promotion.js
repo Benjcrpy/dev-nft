@@ -12,8 +12,6 @@ const Promotion = () => {
           smart contracts, and web development. Consider seeking professional 
           assistance if you're not experienced in these areas.
           </p>
-
-          
         </div>
       </div>
     </div>
