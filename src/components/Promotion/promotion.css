@@ -5,15 +5,8 @@
 }
 
 
-
-
-@media(max-width: 45rem) {
-.p-container{
-  height:14rem;
-}
-}
 .table {
-  width: 150%;
+  width: 90rem;
   height: 70px;
   background-color: #FEDB46;
 
@@ -48,3 +41,18 @@
           left: -40rem;
         }
       }
+
+
+@media(max-width: 45rem) {
+.p-container{
+  height:14rem;
+}
+
+.table {
+  width: 50rem;
+  height: 70px;
+  background-color: #FEDB46;
+
+}
+
+}
