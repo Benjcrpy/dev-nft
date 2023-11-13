@@ -5,7 +5,7 @@ const Promotion = () => {
     <div className="p-container">
     <div className="table absolute-center">
       <div className="monitor-wrapper absolute-center">
-        <div className="monitor absolute-center">
+        <div className="monitor">
           <p className='p'>
           Building an NFT marketplace with these features can be complex, 
           requiring a deep understanding of blockchain technology, 

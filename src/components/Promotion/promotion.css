@@ -7,17 +7,13 @@
 
 
 
-
-
-
-
 @media(max-width: 45rem) {
 .p-container{
   height:14rem;
 }
 }
 .table {
-  width: 100%;
+  width: 150%;
   height: 70px;
   background-color: #FEDB46;
 
