@@ -1,14 +1,15 @@
 
 .footer_box_social_logo{
   font-size: 5rem;
-  
+
 }
 
 .footer{
   width: 100%;
   padding-block: 1.5rem;
   position: relative;
-
+ word-break: keep-all;
+    text-align: justify;
  
 }
 

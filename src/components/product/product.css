@@ -34,6 +34,7 @@
     margin: 30px 0; /* Adjust margin as needed */
     height: auto;
     word-break: keep-all;
+    text-align: justify;
 
 
     
@@ -55,7 +56,9 @@
     height: auto;
     display: flex;
     margin-top: 70px;
+    padding-left: 50px;
     border-radius: 8px;
+    
 
     
   }

@@ -4,6 +4,7 @@
     overflow: hidden;
     padding: 100px;
     padding-bottom: 15rem;
+ 
     
 }
 
@@ -37,7 +38,8 @@
     font-size: 20px;
     margin: 24px 0px;
     font-family: 'Roboto', sans-serif;
-    word-break: break-all;
+    word-break: keep-all;
+    text-align: justify;
 }
 
 .tf-left-btn{

@@ -32,6 +32,8 @@
     font-size: 20px;
     margin: 30px 0; /* Adjust margin as needed */
     height: auto;
+    word-break: keep-all;
+    text-align: justify;
   }
   
   .au-left-diamond {

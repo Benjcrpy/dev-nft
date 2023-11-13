@@ -2,6 +2,8 @@
     padding: 10px;
     padding-bottom: 20rem;
     padding-top: 4rem;
+    word-break: keep-all;
+    text-align: justify;
 }
 .info-heading{
       text-transform: uppercase;
