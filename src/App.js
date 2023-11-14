@@ -30,6 +30,7 @@ const App = () => {
       <Info/>
       <Product/>
       <BrandsIntegration />
+   
       <Footer />
     </div>
     
