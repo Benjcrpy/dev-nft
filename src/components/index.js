@@ -1,0 +1,10 @@
+export {default as AboutUs} from './AboutUs';
+export {default as Background} from './background';
+export {default as BrandsIntegration} from './BrandsIntegration';
+export {default as Cookie} from './Cookie';
+export {default as Footer} from './Footer';
+export {default as infosection} from './infosection';
+export {default as NavBar} from './NavBar';
+export {default as Product} from './product';
+export {default as TopFold} from './TopFold';
+export {default as Vision} from './Vision'

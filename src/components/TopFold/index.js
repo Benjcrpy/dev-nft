@@ -3,6 +3,8 @@ import Button from '../../common/Button';
 import homepage from '../../assets/homepage1.png';
 
 
+
+
 const TopFold = () => {
 
   return <div className='top-fold absolute-center' section id="top-fold">
@@ -41,7 +43,7 @@ const TopFold = () => {
           </div>
 
         </div>
-       
+     
     </div>
   
 }

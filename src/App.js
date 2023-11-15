@@ -1,10 +1,7 @@
 import React from 'react'
 import "./App.css"
-
 import TopFold from './components/TopFold'
 import BrandsIntegration from './components/BrandsIntegration'
-
-
 import Footer from './components/Footer'
 import NavBar from './components/NavBar/NavBar'
 import AboutUs from './components/AboutUs'
@@ -16,24 +13,27 @@ import CookieBanner from './components/Cookie/CookieBanner'
 import posthog from 'posthog-js'
 
 
+
+
+
 const App = () => {
   return (
     <div className='max-width'>
-    
-    {posthog.has_opted_in_capturing()||posthog.has_opted_out_capturing() ? null : <CookieBanner/>}
-     <NavBar/>
+ 
+        
+      {posthog.has_opted_in_capturing()||posthog.has_opted_out_capturing() ? null : <CookieBanner/>}
+      <NavBar/>
       <Promotion/>
-      
       <TopFold />
       <Vision />
       <AboutUs />
       <Info/>
       <Product/>
       <BrandsIntegration />
-   
       <Footer />
-    </div>
-    
+
+ 
+    </div> 
   )
 
 }
