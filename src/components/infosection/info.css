@@ -18,14 +18,17 @@
     margin-top: 50px;
     align-items: center;
     justify-content: center;
+    
     display: flex;
     perspective: 1000px; /* Set the perspective for the 3D effect */
-    padding-left: 3rem;
+    padding-left: 20rem;
+    
     
   }
   
   .info-box {
     margin: 15px;
+    padding-left: 1rem;
     position: relative;
     transform-style: preserve-3d; /* Preserve 3D transformation for child elements */
     transition: transform 0.5s; /* Add a smooth transition effect */
