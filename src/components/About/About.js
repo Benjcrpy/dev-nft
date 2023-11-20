@@ -10,12 +10,8 @@ const about = () => {
         <div className="max-w-[1240px] mx-auto">
 
           <div className="text-center">
-            <h2 className="text-5xl font-bold ">Trusted by the customer across the world</h2>
-            <p className="text-xl py-5 text-gray-50"> Technar is a Buy and Sell Shop website where in hundred's of users worldwide use the 
-            website in order to buy technological products who wants to start their own personal computer or laptops. More than 10,000 
-            transaction have been made since the starting of the website and there is a 100% completion rate ever since! 
-            Technar started as a school project in Manila, Philippines which end up as the most used platform in the Philippines 
-            in terms of technology. TechNar has a good quality and lowest price among other sites. </p>
+            <h2 className="text-5xl font-bold ">Happy Tree Friends NFT (Non-Fungible Token) marketplaces are online platforms where users can buy, sell, and trade NFTs. </h2>
+            <p className="text-xl py-5 text-gray-50"> Happy Tree Friend NFT marketplaces leverage blockchain technology to ensure the authenticity, provenance, and scarcity of NFTs. We typically support popular blockchain networks like Ethereum, where NFTs are minted, stored, and traded. Our marketplaces offer features like bidding, fixed-price listings, auctions, and secondary marketplaces for reselling NFTs. </p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-5 px-2 text-center">

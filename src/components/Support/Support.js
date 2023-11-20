@@ -14,10 +14,7 @@ const Support = () => {
         <img className="w-[500px] mx-auto my-4" src={support} alt="/"/>
     <div className="flex flex-col justify-center">
         <h1 className="text-green-400 font-bold font-family text-3xl mb-5"> SUPPORT MANAGEMENT </h1>
-        <p className="mb-10 text-lg md:text-justify">TechNar is the only buy and sell website wherein people can use the customer service function 
-        to assist them about their concern or problems technologically. To use our service function kindly click the chatbox function 
-        in the right corner of this page to start our very own Customer service assistant it's connected to the admin and to have a 
-        fastest transactions.</p>
+        <p className="mb-10 text-lg md:text-justify">THappy Tree Friends  NFT marketplaces involves specialized processes to address the unique aspects of NFTs. It requires technical expertise in blockchain technology, NFT standards, and smart contracts. Support teams assist users with technical inquiries, wallet integration, rarity and metadata concerns, gas fees, network congestion, intellectual property issues, and user education. Efficient ticketing systems, dedicated support personnel, and continuous improvement are pivotal. NFT marketplace support management ensures a smooth user experience in buying, selling, and trading NFTs while handling the complexities of blockchain technology and the digital asset.</p>
     </div>
     </div>
     </div>
