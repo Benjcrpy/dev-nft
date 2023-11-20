@@ -26,6 +26,7 @@
     color: #dad0d0;
     font-size: 40px;
     padding-bottom: 10px;
+    align-content: center;
     
   }
   
@@ -69,6 +70,7 @@
       flex-direction: column; /* Change to a column layout for mobile screens */
       padding: 1rem; /* Adjust padding as needed */
       overflow-x: visible;
+      margin-top: -200px;
       padding-bottom: 200px;
     }
 
@@ -93,6 +95,7 @@
     }
 
     .product-right-diamond {
+      align-items: center;
         display: flex;
         flex-direction: column; /* Change to a column layout for mobile screens */
         align-items: center; /* Center diamond items */

@@ -1,9 +1,9 @@
 .info{
-    padding: 10px;
-    padding-bottom: 20rem;
-    padding-top: 4rem;
+    padding: -200px;
+    padding-bottom: 6rem;
+    padding-top: 1rem;
     word-break: keep-all;
-    text-align: justify;
+    text-align: left;
 }
 .info-heading{
       text-transform: uppercase;
@@ -11,7 +11,7 @@
       font-size: 3rem;
 }
 .info-section {
-    width: 80rem;
+    width: 90rem;
     height: 20rem;
     padding: 20px;
     padding-bottom: 30px;
@@ -20,7 +20,7 @@
     justify-content: center;
     display: flex;
     perspective: 1000px; /* Set the perspective for the 3D effect */
-    padding-left: 20rem;
+    padding-right: 27rem;
     
     
   }
@@ -29,25 +29,63 @@
     width: 20rem;
     margin: 20px;
     padding-left: 1rem;
+    bottom: 0rem;
     position: relative;
     transform-style: preserve-3d; /* Preserve 3D transformation for child elements */
     transition: transform 0.5s; 
     gap: 20rem;/* Add a smooth transition effect */
     
   }
-  
-  .iimg {
-    border-radius: 30px;
+  .head{
+    margin: 20px;
+    text-align: center;
+  }
+  .head1{
+    text-align: center;
+    margin: 10px;
+    
+  }
+  .iimg1 {
+    border-radius: 20px;
     border: 2px solid #dad0d0;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
-    width: 700px;
-    height: 200px;
+    margin-bottom: 20px;
+    
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d; /* Preserve 3D transformation */
+    transition: transform 0.5s; /* Add a smooth transition effect */
+  }
+  .iimg2 {
+    border-radius: 20px;
+    border: 2px solid #dad0d0;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    margin-top: -29px;
+    margin-bottom: 22px;
+    width: 640px;
+    height: 190px;
+    transform-style: preserve-3d; /* Preserve 3D transformation */
+    transition: transform 0.5s; /* Add a smooth transition effect */
+  }
+  .iimg3 {
+    border-radius: 20px;
+    border: 2px solid #dad0d0;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    width: 600px;
+    height: 190px;
     transform-style: preserve-3d; /* Preserve 3D transformation */
     transition: transform 0.5s; /* Add a smooth transition effect */
   }
   
-  .info-box:hover .iimg {
-    transform: rotateY(180deg); /* Flip the image on hover */
+  .info-box:hover .iimg1 {
+    transform: rotateY(360deg); /* Flip the image on hover */
+  }
+  .info-box:hover .iimg2 {
+    transform: rotateY(360deg); /* Flip the image on hover */
+  }
+  .info-box:hover .iimg3 {
+    transform: rotateY(360deg); /* Flip the image on hover */
   }
   .info-box .h2,
 .info-box .p {
