@@ -43,10 +43,10 @@
       top: 2%;
       margin-left: 2%;
       position: absolute;
-      max-width: 23%; /* Adjust the maximum width for smaller screens */
+      max-width: 88%; /* Adjust the maximum width for smaller screens */
       padding: 10px; /* Adjust padding for smaller screens */
       left: 20px; /* Position at the left side of the screen */
-      max-height: 70vh; /* Adjust the maximum height for smaller screens */
+      max-height: 100%; /* Adjust the maximum height for smaller screens */
     }
   
     .tmc-close {

@@ -44,6 +44,8 @@ const NavBar = () => {
         <a href="#vision">Vision</a>
         <a href="#infosection">Infosection</a>
         <a href="#product">Product & Services</a>
+        <a href="#product">About Us</a>
+        <a href="#product">Support</a>
       </div>
       
       <div className="goto">

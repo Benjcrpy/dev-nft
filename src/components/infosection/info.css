@@ -7,7 +7,7 @@
 }
 .info-heading{
       text-transform: uppercase;
-      color: #dad0d0;
+      color: rgb(212, 102, 51);
       font-size: 3rem;
 }
 .info-section {
@@ -138,7 +138,7 @@
     }
     .info-section {
     
-      width: 20rem; /* Adjust the width for smaller screens */
+      width: 100%; /* Adjust the width for smaller screens */
       height: 100%; /* Allow the height to adapt to content */
       padding: 1px; /* Increase padding for smaller screens */
       flex-direction: column;
