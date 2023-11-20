@@ -26,26 +26,7 @@ const Footer = () => {
       <div className={Style.footer_box}>
         <div className={Style.footer_box_social}>
          
-          <p className="FooterP">
-            The world’s first and largest digital marketplace for crypto collectibles and non-fungible tokens (NFTs).
-            Buy, sell, and discover exclusive digital items.
-          </p>
-
-          {/* Social Section */}
-          <div className={Style.footer_social}>
-            <a href="https://www.facebook.com/profile.php?id=61552102599704&mibextid=ZbWKwL">
-              <TiSocialFacebook />
-            </a>
-            <a href="https://twitter.com/HappytreeF19101">
-              <TiSocialTwitter />
-            </a>
-            <a href="https://www.youtube.com/channel/UCtPAoNtYhcEpuZ5WipjPPGQ">
-              <TiSocialYoutube />
-            </a>
-            <a href="#">
-              <TiSocialInstagram />
-            </a>
-          </div>
+          
         </div>
 
         {/* Menu Section */}
@@ -70,20 +51,37 @@ const Footer = () => {
 
         {/* Subscribe Section */}
         <div className={Style.subscribe}>
-          <h3>Subscribe</h3>
+          <h3 className="subscribe">Subscribe</h3>
+          <div className={Style.footer_box_social}>
+        
+          <div className={Style.footer_social}>
+            <a href="https://www.facebook.com/profile.php?id=61552102599704&mibextid=ZbWKwL">
+              <TiSocialFacebook />
+            </a>
+            <a href="https://twitter.com/HappytreeF19101">
+              <TiSocialTwitter />
+            </a>
+            <a href="https://www.youtube.com/channel/UCtPAoNtYhcEpuZ5WipjPPGQ">
+              <TiSocialYoutube />
+            </a>
             
+          </div>
+          </div>
           <div className={Style.subscribe_box}>
             <input type="email" placeholder="Enter your email *" />
             <RiSendPlaneFill className={Style.subscribe_box_send} />
           </div>
 
           <div className={Style.subscribe_box_info}>
-            <p className="FooterP"> 
+            
+          </div>
+          
+        </div>
+        
+      </div>
+      <p className="FooterP absolute-center"> 
                 @{new Date().getFullYear()} HTF. All right reseved.
             </p>
-          </div>
-        </div>
-      </div>
     </div>
   );
 };

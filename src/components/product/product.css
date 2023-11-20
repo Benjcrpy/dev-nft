@@ -1,6 +1,6 @@
 .product {
     display: flex; /* Add flex display to arrange the items horizontally */
-    padding-bottom: 20rem;
+   
     overflow: hidden;
 
     font-family: 'Roboto', sans-serif;
@@ -26,7 +26,8 @@
     color: #dad0d0;
     font-size: 40px;
     padding-bottom: 10px;
-    padding-top: 60px;
+    align-content: center;
+    
   }
   
   .product-description {
@@ -69,6 +70,7 @@
       flex-direction: column; /* Change to a column layout for mobile screens */
       padding: 1rem; /* Adjust padding as needed */
       overflow-x: visible;
+      margin-top: -200px;
       padding-bottom: 200px;
     }
 
@@ -93,6 +95,7 @@
     }
 
     .product-right-diamond {
+      align-items: center;
         display: flex;
         flex-direction: column; /* Change to a column layout for mobile screens */
         align-items: center; /* Center diamond items */
