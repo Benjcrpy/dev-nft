@@ -3,6 +3,9 @@ import React, { useState } from "react";
 import "./NavBar.css";
 import { Logo } from "./index";
 import Button from '../../common/Button';
+import { GoogleOAuthProvider } from "@react-oauth/google";
+import { GoogleLogin } from '@react-oauth/google';
+import { jwtDecode } from "jwt-decode";
 
 
 
@@ -45,7 +48,7 @@ const NavBar = () => {
         <a href="#infosection">Infosection</a>
         <a href="#product">Product & Services</a>
       </div>
-      
+
       <div className="goto">
         <a href="https://marketplace-benjcrpy.vercel.app/">
           <Button btnType='PRIMARY' btnText='Marketplace'/>
