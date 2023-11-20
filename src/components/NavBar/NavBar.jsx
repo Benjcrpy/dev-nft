@@ -41,7 +41,6 @@ const NavBar = () => {
       </div>
       <div className="NavItems">
         <a href="#top-fold">Home</a>
-        <a href="#about-us">About Us</a>
         <a href="#vision">Vision</a>
         <a href="#infosection">Infosection</a>
         <a href="#product">Product & Services</a>
