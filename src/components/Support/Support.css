@@ -1,0 +1,50 @@
+.support {
+padding-top: 4rem;
+padding-bottom: 4rem; 
+width: 100%; 
+color: #ffffff; 
+}
+
+.support-txt {
+position: relative; 
+font-size: 1.875rem;
+line-height: 2.25rem; 
+font-weight: 600; 
+text-transform: capitalize; 
+transition-property: all;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+transition-duration: 300ms; 
+transition-duration: 100ms; 
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.support-con {
+padding-left: 1rem;
+padding-right: 1rem; 
+padding-top: 4rem;
+padding-bottom: 4rem; 
+width: 100%; 
+
+}
+
+.support-cont {
+display: grid;
+max-width: 1240px;
+}
+
+.support-img{
+margin-top: 1rem;
+margin-bottom: 1rem; 
+width: 500px;
+}
+
+.support-b {
+    display: flex; 
+flex-direction: column; 
+justify-content: center; 
+
+}
+
+@media (min-width: 768px) { 
+    
+   }

@@ -1,6 +1,6 @@
 .about-us {
     display: flex; /* Add flex display to arrange the items horizontally */
-    padding-bottom: 10rem;
+    padding-top: 20rem;
     overflow: hidden;
     word-break: keep-all;
     font-family: 'Roboto', sans-serif;

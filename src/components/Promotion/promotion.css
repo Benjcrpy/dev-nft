@@ -31,6 +31,7 @@
         position: relative;
         display: inline-block;
         animation: move 15s infinite linear;
+        padding-bottom: 20rem;
         color: white;
       }
       @keyframes move {

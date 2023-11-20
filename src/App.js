@@ -10,6 +10,8 @@ import Info from './components/infosection/info'
 import Product from './components/product/product'
 import CookieBanner from './components/Cookie/CookieBanner'
 import posthog from 'posthog-js'
+import Support from './components/Support/Support';
+import About from './components/About/About'
 
 
 
@@ -24,10 +26,11 @@ const App = () => {
       <NavBar/>
       <Promotion/>
       <TopFold />
-
       <AboutUs />
       <Info/>
       <Product/>
+      <About/>
+      <Support/>
       <BrandsIntegration />
       <Footer />
 

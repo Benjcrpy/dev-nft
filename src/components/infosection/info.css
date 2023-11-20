@@ -11,14 +11,13 @@
       font-size: 3rem;
 }
 .info-section {
-    width: 65rem;
-    height: 40rem;
+    width: 80rem;
+    height: 20rem;
     padding: 20px;
-    padding-bottom: 20px;
-    margin-top: 50px;
+    padding-bottom: 30px;
+    margin-top: 70px;
     align-items: center;
     justify-content: center;
-    
     display: flex;
     perspective: 1000px; /* Set the perspective for the 3D effect */
     padding-left: 20rem;
@@ -27,19 +26,21 @@
   }
   
   .info-box {
-    margin: 15px;
+    width: 20rem;
+    margin: 20px;
     padding-left: 1rem;
     position: relative;
     transform-style: preserve-3d; /* Preserve 3D transformation for child elements */
-    transition: transform 0.5s; /* Add a smooth transition effect */
+    transition: transform 0.5s; 
+    gap: 20rem;/* Add a smooth transition effect */
     
   }
   
   .iimg {
-    border-radius: 20px;
+    border-radius: 30px;
     border: 2px solid #dad0d0;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
-    width: 380px;
+    width: 700px;
     height: 200px;
     transform-style: preserve-3d; /* Preserve 3D transformation */
     transition: transform 0.5s; /* Add a smooth transition effect */
