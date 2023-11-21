@@ -3,9 +3,7 @@ import React, { useState } from "react";
 import "./NavBar.css";
 import { Logo } from "./index";
 import Button from '../../common/Button';
-import { GoogleOAuthProvider } from "@react-oauth/google";
-import { GoogleLogin } from '@react-oauth/google';
-import { jwtDecode } from "jwt-decode";
+
 
 
 
@@ -47,8 +45,8 @@ const NavBar = () => {
         <a href="#vision">Vision</a>
         <a href="#infosection">Infosection</a>
         <a href="#product">Product & Services</a>
-        <a href="#product">About Us</a>
-        <a href="#product">Support</a>
+        <a href="#About">About Us</a>
+        <a href="#Support">Support</a>
       </div>
 
       <div className="goto">

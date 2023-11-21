@@ -4,10 +4,8 @@ import "./Support.css"
 
 const Support = () => {
   return (
-    <section className="w-full py-16 text-white">
-    <p className="text-3xl font-semibold capitalize text-slate-100 relative before:absolute before:rounded-lg before:content before:w-16 before:h-1 before:-bottom-2 before:left-0 before:bg-gradient-to-tr from-cyan-500 to-cyan-900 transition-all ease-in-out duration-100 mr-auto">
-    Support
-    </p>  
+    <section className="w-full py-16 text-white" section id="Support">
+    
 
     <div className="w-full py-16 px-4">
     <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">

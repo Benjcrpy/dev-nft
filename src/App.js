@@ -27,8 +27,8 @@ const App = () => {
       <Promotion/>
       <TopFold />
       <AboutUs />
-      <Info/>
       <Product/>
+      <Info/>
       <About/>
       <Support/>
       <BrandsIntegration />
