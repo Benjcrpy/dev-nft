@@ -72,7 +72,7 @@ a {
 
 ::-webkit-scrollbar-thumb {
   border-radius: 2rem;
-  background: var(--color-primary);
+  background: rgb(219, 223, 16);
   width: 0.5rem;
 }
 /* Add more media queries as needed for different screen sizes */
