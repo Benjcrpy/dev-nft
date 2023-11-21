@@ -14,17 +14,17 @@ const about = () => {
 
           <div className="grid md:grid-cols-3 gap-5 px-2 text-center">
             <div className="border py-8 rounded-xl shadow-xl">
-              <p className="text-6xl font-bold text-orange-400">100%</p>
+              <p className="text-6xl font-bold text-yellow-400">100%</p>
               <p className="text-gray-400 mt-2">Completion</p>
             </div>
 
             <div className="border py-8 rounded-xl shadow-xl">
-              <p className="text-6xl font-bold text-orange-400">24/7</p>
+              <p className="text-6xl font-bold text-yellow-400">24/7</p>
               <p className="text-gray-400 mt-2">Delivery</p>
             </div>
 
             <div className="border py-8 rounded-xl shadow-xl">
-              <p className="text-6xl font-bold text-orange-400">100k</p>  
+              <p className="text-6xl font-bold text-yellow-400">100k</p>  
               <p className="text-gray-400 mt-2">Transaction</p>
             </div>
           </div>

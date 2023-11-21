@@ -76,7 +76,7 @@ const Footer = () => {
             
           </div>
           
-          <p className="FooterP absolute-center"> 
+          <p className={Style.FooterP}> 
                 @{new Date().getFullYear()} HTF. All right reseved.
             </p>
         </div>
