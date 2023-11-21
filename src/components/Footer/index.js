@@ -76,12 +76,15 @@ const Footer = () => {
             
           </div>
           
-        </div>
-        
-      </div>
-      <p className="FooterP absolute-center"> 
+          <p className="FooterP absolute-center"> 
                 @{new Date().getFullYear()} HTF. All right reseved.
             </p>
+        </div>
+        
+        
+      </div>
+      
+      
     </div>
   );
 };

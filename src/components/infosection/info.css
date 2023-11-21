@@ -7,12 +7,12 @@
 }
 .info-heading{
       text-transform: uppercase;
-      color: #dad0d0;
+      color: rgb(212, 102, 51);
       font-size: 3rem;
 }
 .info-section {
-    width: 90rem;
-    height: 20rem;
+    width: 100%;
+    height: 30%;
     padding: 20px;
     padding-bottom: 30px;
     margin-top: 70px;
@@ -20,7 +20,7 @@
     justify-content: center;
     display: flex;
     perspective: 1000px; /* Set the perspective for the 3D effect */
-    padding-right: 27rem;
+  
     
     
   }
@@ -52,7 +52,7 @@
     margin-bottom: 20px;
     
     width: 100%;
-    height: 100%;
+    height: 190px;
     transform-style: preserve-3d; /* Preserve 3D transformation */
     transition: transform 0.5s; /* Add a smooth transition effect */
   }
@@ -138,7 +138,7 @@
     }
     .info-section {
     
-      width: 20rem; /* Adjust the width for smaller screens */
+      width: 100%; /* Adjust the width for smaller screens */
       height: 100%; /* Allow the height to adapt to content */
       padding: 1px; /* Increase padding for smaller screens */
       flex-direction: column;

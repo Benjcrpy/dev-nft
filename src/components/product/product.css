@@ -23,7 +23,7 @@
   
   .product-heading {
     text-transform: uppercase;
-    color: #dad0d0;
+    color: rgb(212, 102, 51);
     font-size: 40px;
     padding-bottom: 10px;
     align-content: center;
@@ -111,8 +111,8 @@
     }
 
     .p-img {
-        width: 100%; /* Make the image width 100% of the container */
-        height: auto; /* Maintain aspect ratio */
+        width: 430px; /* Make the image width 100% of the container */
+        height: 150px; /* Maintain aspect ratio */
         border-radius: 8px;
         padding-left: 1rem;
     }
