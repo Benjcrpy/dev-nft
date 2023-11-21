@@ -25,7 +25,7 @@ function CookieBanner() {
                 <div className='co-description'>
                     <p>We use cookies to enhance your user experience by using our website, you agree to our use of cookies</p>
                     <button className='btn' onClick={acceptCookies}>Accept</button>
-                    <button className='btn' onClick={declineCookies}>Accept</button>
+                    <button className='btn' onClick={declineCookies}>Decline</button>
                    
                 </div>
             )}
