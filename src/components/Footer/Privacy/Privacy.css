@@ -1,4 +1,4 @@
-.tmc-overlay {
+.privacy-overlay {
     position: fixed;
     top: 0;
     left: 0;
@@ -11,7 +11,7 @@
     z-index: 999;
   }
   
-  .tmc-box {
+  .privacy-box {
     background: #0e0d0d;
     max-width: 80%;
     padding: 20px;
@@ -23,7 +23,7 @@
     max-height: 80vh; /* Set a maximum height for the content area (adjust as needed) */
   }
   
-  .tmc-close {
+  .privacy-close {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -34,12 +34,12 @@
     color: #888;
   }
   
-  .tmc-close:hover {
+  .privacy-close:hover {
     color: #f00; /* Change the color on hover if desired */
   }
 
   @media (max-width: 45rem) {
-    .tmc-box {
+    .privacy-box {
       top: 2%;
       margin-left: 2%;
       position: absolute;
@@ -49,8 +49,7 @@
       max-height: 100%; /* Adjust the maximum height for smaller screens */
     }
   
-    .tmc-close {
-      
+    .privacy-close {
       top: 10px; /* Adjust the top position for the close button */
       right: 5px; /* Adjust the right position for the close button */
       font-size: 16px; /* Adjust the font size for the close button */

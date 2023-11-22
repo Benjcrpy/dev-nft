@@ -1,6 +1,6 @@
 .info{
     padding: -200px;
-    padding-bottom: 10rem;
+    margin-bottom: -40px;
     padding-top: 7rem;
     word-break: keep-all;
     text-align: left;
@@ -16,7 +16,7 @@
     height: 30%;
     padding: 20px;
     padding-bottom: 40px;
-    margin-top: 70px;
+    margin-top: 20px;
     align-items: center;
     justify-content: center;
     display: flex;

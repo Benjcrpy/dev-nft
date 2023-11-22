@@ -41,12 +41,12 @@ const NavBar = () => {
 
       </div>
       <div className="NavItems">
-        <a href="#top-fold">Home</a>
-        <a href="#vision">Vision</a>
-        <a href="#infosection">Infosection</a>
-        <a href="#product">Product & Services</a>
-        <a href="#About">About Us</a>
-        <a href="#Support">Support</a>
+        <a className="text" href="#top-fold">Home</a>
+        <a className="text1" href="#vision">Vision</a>
+        <a className="text2" href="#infosection">Infosection</a>
+        <a className="text3" href="#product">Product & Services</a>
+        <a className="text4" href="#About">About Us</a>
+        <a className="text5" href="#Support">Support</a>
       </div>
 
       <div className="goto">

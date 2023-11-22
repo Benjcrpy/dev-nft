@@ -22,7 +22,7 @@ const App = () => {
     <div className='max-width'>
  
         
-      {posthog.has_opted_in_capturing()||posthog.has_opted_out_capturing() ? null : <CookieBanner/>}
+
       <NavBar/>
       <Promotion/>
       <TopFold />
@@ -33,7 +33,7 @@ const App = () => {
       <Support/>
       <BrandsIntegration />
       <Footer />
-
+      {posthog.has_opted_in_capturing()||posthog.has_opted_out_capturing() ? null : <CookieBanner/>}
  
     </div> 
   )

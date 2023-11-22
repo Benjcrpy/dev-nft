@@ -4,7 +4,7 @@ import {
   TiSocialFacebook,
   TiSocialTwitter,
   TiSocialYoutube,
-  TiSocialInstagram,
+  
  
 } from "react-icons/ti";
 import { RiSendPlaneFill } from "react-icons/ri";
@@ -12,11 +12,18 @@ import { RiSendPlaneFill } from "react-icons/ri";
 // INTERNAL IMPORTS
 import Style from "./Footer.module.css";
 import TMC from "./tmc/tmc";
-
+import Privacy from "./Privacy/Privacy"
 
 const Footer = () => {
   const [showTMC, setShowTMC] = useState(false);
+  const [showPrivacy, setShowPrivacy] = useState(false);
   const [isTMCVisible, setIsTMCVisible] = useState(false);
+  const [isPrivacyVisible, setIsPrivacyVisible] = useState(false);
+
+  const handlePrivacyClick = () => {
+    setIsPrivacyVisible(!isPrivacyVisible);
+    setShowPrivacy(!showPrivacy); // Toggle the visibility of the TMC component
+  };
   const handleTMCClick = () => {
     setIsTMCVisible(!isTMCVisible);
     setShowTMC(!showTMC); // Toggle the visibility of the TMC component
@@ -42,11 +49,19 @@ const Footer = () => {
           <h3>Help Center</h3>
           <a href="#" onClick={handleTMCClick}>
           <p className="FooterP">Terms and Condition</p>
+         
         </a>
         {showTMC && <TMC />}
         {isTMCVisible && <TMC onClose={handleTMCClick} />}
+
+        <a href="#" onClick={handlePrivacyClick}>
+        <p className="FooterP">Privacy and Policy</p>
+        </a>
+
+        {showPrivacy && <Privacy />}
+        {isPrivacyVisible && <Privacy onClose={handlePrivacyClick} />}  
           <a href="https://mumbai.polygonscan.com/?fbclid=IwAR1Oav1DguwQUIvDKynDEb8qaSNPUajaw7Bjkylvj9DH48FwtfeYaZmTr5U"> <p className="FooterP">Blockchain</p> </a>
-            
+          
         </div>
 
         {/* Subscribe Section */}

@@ -1,36 +1,24 @@
-import posthog from "posthog-js"
-import "./cookie.css"
-import { useState } from "react";
+import React from 'react'
+import CookieConsent from 'react-cookie-consent'
 
-   
-function CookieBanner() {
+export const CookieBanner = () => {
+  return (
+    <div className='cookie'>
+            <CookieConsent 
+            debug={true}
+            location='bottom'
+            style={{zIndex:"50000",}}
+            expires={365}
+            buttonStyle={{
+               padding:"5px",
+               zindex:"500",
+            }}
+            >
+                This site uses cookies. See our privacy policy for more
+            </CookieConsent>
 
-    const [showBanner, setShowBanner] = useState(true);
-
-    const acceptCookies = () => {
-        posthog.opt_in_capturing();
-        setShowBanner(false);
-    }
-    const declineCookies = () => {
-        posthog.opt_in_capturing();
-        setShowBanner(false);
-    }
-
-
-   
-
-    return (
-        <div className='box'>
-            {showBanner && (
-                <div className='co-description'>
-                    <p>We use cookies to enhance your user experience by using our website, you agree to our use of cookies</p>
-                    <button className='btn' onClick={acceptCookies}>Accept</button>
-                    <button className='btn' onClick={declineCookies}>Decline</button>
-                   
-                </div>
-            )}
-        </div>
-    )
+    </div>
+  )
 }
 
 export default CookieBanner

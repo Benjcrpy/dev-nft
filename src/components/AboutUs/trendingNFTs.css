@@ -5,6 +5,7 @@
     word-break: keep-all;
     font-family: 'Roboto', sans-serif;
     align-items: center;
+    margin-bottom: -89px;
    
   }
   
@@ -27,7 +28,7 @@
     text-transform: uppercase;
     font-family:  'ADLaM Display', cursive;
     color: rgb(219, 223, 16);
-    font-size: 3rem;
+    font-size: 45px;
   }
   
   .au-description {
@@ -53,8 +54,8 @@
   }
   
   .au-left-diamond-img {
-    max-width: 100%;
-    height: auto;
+    max-width: 500px;
+    height: 300px;
     display: flex;
     margin-top: 70px;
     border-radius: 8px;
