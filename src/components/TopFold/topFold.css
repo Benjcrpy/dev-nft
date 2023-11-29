@@ -1,6 +1,6 @@
 .top-fold{
     display: flex;
-    height: 80vh;
+    height: 89vh;
     overflow: hidden;
     padding: 10px;
     padding-top: 5rem;
@@ -21,7 +21,7 @@
 .tf-heading{
     
     text-transform: uppercase;
-    color: #dad0d0;
+    color: rgb(219, 223, 16);    
     font-size: 3rem;
      }
      
@@ -83,9 +83,9 @@
 
 .tf-r-diamond-img{
     
-    width: 600px;
+    width: 550px;
     height: 300px;
-    border-radius: 2px;
+    border-radius: 8px;
     display:flex;
     transition: width 2s;
     -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(156, 22, 22, 0), rgba(0,0,0,0.4));
@@ -123,16 +123,18 @@
     .tf-left-btn {
         margin-top: 15px; /* Adjust the margin for mobile */
         display: flex;
-        gap: 10px;
+        gap: 20px;
         padding-bottom: 50px;
         flex-direction: row; /* Display buttons in a row for mobile (horizontally aligned) */
         align-items: center;
+        padding-left: 15%;
+        
         
          /* Center the buttons vertically */
     }
 
     .tf-left-btn .a {
-        margin-right: 20px; /* Add margin between buttons horizontally */
+        margin-right: 30px; /* Add margin between buttons horizontally */
         margin-bottom: 0; /* Remove the vertical margin between buttons */
         min-width: 120px; /* Ensure a minimum width for the buttons */
     }

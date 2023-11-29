@@ -38,6 +38,7 @@
   gap: 1.3rem;
   font-size: 1.5rem;
   align-items: center;
+  color: rgb(255, 255, 255);
 }
 
 
@@ -91,7 +92,7 @@
 }
 .footer_box_helpcenter h3 {
   margin-bottom: 10px; 
-  color: rgb(212, 102, 51);
+  color: rgb(219, 223, 16);
 }
 .footer_box_helpcenter p {
   margin-bottom: 10px; 
@@ -100,7 +101,7 @@
 }
 .footer_box_discover h3{
   margin-bottom: 10px;
-  color: rgb(212, 102, 51);
+  color: rgb(219, 223, 16);
 }
 .footer_box_discover p {
   margin-bottom: 10px; 
@@ -108,23 +109,30 @@
   width: 100%;
 }
 .subscribe{
-  color: rgb(212, 102, 51);
+  color: rgb(219, 223, 16);
   align-self: center;
+}
+.FooterP{
+  color: rgb(255, 255, 255);
 }
 
 /* //MEDIA QUERY */
 @media screen and (max-width: 45rem) {
   .footer_box{
       
-      grid-template-columns: 1fr 2fr;
+      grid-template-columns: 1fr;
+      justify-content: center;
       font-family: 'Roboto', sans-serif;
-      width: fit-content;
-      display: contents;
-      
+      display: grid;
+      padding-bottom: 100%;
+      padding-left: 75%;
+      margin-top: -200px;
+    
       
   }
   
   a {
+    
     text-decoration: none; /* Remove the underline */
     color: rgb(167, 140, 140);
     

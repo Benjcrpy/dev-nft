@@ -2,6 +2,8 @@
   display: flex;
   justify-content: center; /* Horizontal centering */
   align-items: center; /* Vertical centering */
+ 
+  padding-top: 100px;
 }
 
 
@@ -31,7 +33,7 @@
         position: relative;
         display: inline-block;
         animation: move 15s infinite linear;
-        padding-bottom: 20rem;
+        margin: 13px;
         color: white;
       }
       @keyframes move {

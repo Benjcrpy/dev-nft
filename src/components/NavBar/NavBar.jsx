@@ -3,9 +3,7 @@ import React, { useState } from "react";
 import "./NavBar.css";
 import { Logo } from "./index";
 import Button from '../../common/Button';
-import { GoogleOAuthProvider } from "@react-oauth/google";
-import { GoogleLogin } from '@react-oauth/google';
-import { jwtDecode } from "jwt-decode";
+
 
 
 
@@ -43,10 +41,12 @@ const NavBar = () => {
 
       </div>
       <div className="NavItems">
-        <a href="#top-fold">Home</a>
-        <a href="#vision">Vision</a>
-        <a href="#infosection">Infosection</a>
-        <a href="#product">Product & Services</a>
+        <a className="text" href="#top-fold">Home</a>
+        <a className="text1" href="#vision">Vision</a>
+        <a className="text2" href="#infosection">Infosection</a>
+        <a className="text3" href="#product">Product & Services</a>
+        <a className="text4" href="#About">About Us</a>
+        <a className="text5" href="#Support">Support</a>
       </div>
 
       <div className="goto">

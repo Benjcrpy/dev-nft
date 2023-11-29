@@ -3,22 +3,26 @@ body {
   margin: 0;
   padding: 0;
   font-family:  'ADLaM Display', cursive;
+  
 }
 
 /* NavBar styles */
 .NavBar {
+  z-index: 1000;
+  position: fixed;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: var(--background-color);
+  
   padding: 10px 10px;
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
 }
-.nav-btn{
+.nav-btn{ 
   width: 35px;
   position: absolute;
-  right: 2rem;
+  right: 3rem;
   top: 1rem;
   display: none;
   cursor: pointer;
@@ -52,7 +56,9 @@ body {
   .NavItems {
     display: inline;
     margin: 10px 20px;
-    padding-left: 10rem;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    
   }
   
   .NavItems a {
@@ -73,12 +79,22 @@ body {
     left: 0; /* Adjust as needed for horizontal positioning */
    
   }
+  .goto{
+    font-size: 20px;
+  }
   
   @media(max-width: 45rem) {
+    .NavBar{
+      position: relative;
+    }
     .nav-btn{
-      display:block ;
-      z-index: 2;
+      display: block;
+      z-index: 3;
       cursor: pointer;
+      position: absolute;
+      right: 40px;
+     
+      
     }
     
     .nav-btn .hamburger {
@@ -89,35 +105,70 @@ body {
     }
     .NavItems a{
       display: block;
-      width: 150px;
+      
       height: 1.5rem;
       padding: 23px 0px;
       z-index: 1;
       top: 40px;
       text-align: left;
+      padding-left:64%;
+      margin: 7px;
        
       
     }
-    
+    .open .NavBar{
+      
+    }
     .open .NavItems {
       display: flex; 
       z-index: 1;
       flex-direction: column;
       position: absolute; 
-      padding-top: 120px;
+      padding-top: 1000px;
       padding-right: 70px;
       top: -10px;
       right: 180px;
-      width: 84%; /* Cover the entire width */
-      height: 100%; /* Cover the entire height */
+      width: 100%; /* Cover the entire width */
+      height: 150%; /* Cover the entire height */
       background-image: linear-gradient(
         -225deg,
         #504a4c 67%,
         #555357 100%
       );
-      background-size: 100% ; 
+      background-size: 170%;
       background-repeat: no-repeat;
       justify-content: flex-start;
+      
+  }
+  .open .text{
+    margin-top: -890px;
+    margin-left: 30px;
+    
+  }
+  .open .text1{
+    
+    margin-left: 30px;
+    
+  }
+  .open .text2{
+   
+    margin-left: 30px;
+    
+  }
+  .open .text3{
+    
+    margin-left: 30px;
+    
+  }
+  .open .text4{
+    margin-top: 20px;
+    margin-left: 30px;
+    
+  }
+  .open .text5{
+    
+    margin-left: 30px;
+    
   }
   
    
@@ -131,7 +182,7 @@ body {
     z-index: 2;
     }
     .open .nav-logo{
-      width: 180px; 
+      width: 150px; 
     }
   
     .nav-logo img {
@@ -153,9 +204,11 @@ body {
       flex-direction: column;
       position: absolute;
       bottom: 0;
-      right: -11px;
-      width: 93%; /* Adjust this percentage to your preference */
-      height: 44%; /* Adjust this percentage to your preference */
+      height: 10%;
+      width: 63%;
+      right: 46%;
+      top: 2500%; 
+    
       
       
     }
