@@ -1,11 +1,12 @@
 import React from 'react'
 import CookieConsent from 'react-cookie-consent'
 
+
 export const CookieBanner = () => {
   return (
     <div className='cookie'>
             <CookieConsent 
-            debug={true}
+            debug={false}
             location='bottom'
             style={{zIndex:"50000",}}
             expires={365}
